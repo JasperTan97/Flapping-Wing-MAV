@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/jasper/flap_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jasper/flap_ws/install -G Unix Makefiles
