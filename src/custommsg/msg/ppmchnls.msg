@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint16 chn1
+uint16 chn2
+uint16 chn3
+uint16 chn4
+uint16 chn5
+uint16 chn6
+uint16 chn7
+uint16 chn8
