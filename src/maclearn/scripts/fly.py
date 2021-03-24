@@ -103,7 +103,9 @@ episode_is_done = False
 if mode == "test" or mode == "load_n_train":
 	agent.load_all_models()
 
-if mode == "load_n_train" 
+# load replay_buffer
+if mode == "load_n_train":
+	agent.memory.load_replay_buffer(file_list)
 
 def check_is_done(state_prime):
 	""" function to check of goal has been reached """
@@ -139,8 +141,9 @@ def callback(pose, twist, accel): # rmb to normalise
 	# get the action (scale [-1,1] to [1100, 1900])
 	action = agent.select_actions(state_prime, mode) * 0.5*(max_PPM - min_PPM) + 0.5*(min_PPM + max_PPM)
 
-	# see if the episode goal has been reached or the flight failed
-	episode_is_done = check_is_done(state_prime)
+	# see if the episode goal has been reached or the flight failed (only check if episode is not already done)
+	if not episode_is_done:
+		episode_is_done = check_is_done(state_prime)
 
 	# create chnl msg
 	chnl_msg = ppmchnls()
@@ -150,13 +153,13 @@ def callback(pose, twist, accel): # rmb to normalise
 		# FAILSAFE MODE
 		chnl_msg.chn1=chnl_msg.chn2=chnl_msg.chn3=chnl_msg.chn4=chnl_msg.chn5=chnl_msg.chn6=chnl_msg.chn7=chnl_msg.chn8 = min_PPM
 			if save_data:
-				agent.memory.save_replay_buffer()
+				agent.memory.save_replay_buffer(file_list)
 	else:
 		# PUBLISH TO CHANNELS (HARDCODED FOR DUAL MOTOR  + DUAL SERVO MAV)
-		chnl_msg.chn1 = action[0]
-		chnl_msg.chn2 = action[1]
-		chnl_msg.chn3 = action[2]
-		chnl_msg.chn4 = action[3]
+		chnl_msg.chn1 = int(action[0])
+		chnl_msg.chn2 = int(action[1])
+		chnl_msg.chn3 = int(action[2])
+		chnl_msg.chn4 = int(action[3])
 		chnl_msg.chn5, chnl_msg.chn6, chnl_msg.chn7, chnl_msg.chn8 = min_PPM
 
 	pub_arduino.publish(chnl_msg)
@@ -168,12 +171,14 @@ def callback(pose, twist, accel): # rmb to normalise
 		first_msg = False
 		return
 
-	agent.store_memory(state, action_prev, return_reward(state, state_prime), state_prime, episode_is_done)
+	# only store memory if episode is running
+	if not episode_is_done:
+		agent.store_memory(state, action_prev, return_reward(state, state_prime), state_prime, episode_is_done)
 
-	state = state_prime[:]
-	prev_action = np.copy(action)
+		state = state_prime[:]
+		prev_action = np.copy(action)
 
-def fly():
+def ros_fly():
 
 	# initialise node and subscribers
 	rospy.init_node('bird_data_compiler_node_py', anonymous=True)
@@ -197,13 +202,15 @@ def fly():
 		        if agent.model == "DDPG":
 			        nn_training_loss_log.append(agent.apply_gradients_DDPG())
 			        # nn_training_episode_log.append(x+1)
-			else:
+			check = input("The training for episode {} has terminated, reset bird and press any key to continue")
+			first_msg = True
+			episode_is_done = False
 
 		# rate.sleep()
 	if save_data:
-		agent.memory.save_replay_buffer()
+		agent.memory.save_replay_buffer(file_list)
 
 
 
 #if __name__ == "__main__":
-fly()
+ros_fly()
