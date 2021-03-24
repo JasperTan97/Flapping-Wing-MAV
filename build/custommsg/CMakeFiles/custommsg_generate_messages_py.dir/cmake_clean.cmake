@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custommsg_generate_messages_py"
-  "/home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py"
-  "/home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/__init__.py"
+  "/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py"
+  "/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

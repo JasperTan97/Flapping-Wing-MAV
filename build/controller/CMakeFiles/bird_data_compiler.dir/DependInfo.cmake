@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/jasper/flap_ws/src/controller/include"
-  "/home/jasper/flap_ws/devel/include"
+  "/home/jasper/flap_ws/devel/.private/custommsg/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

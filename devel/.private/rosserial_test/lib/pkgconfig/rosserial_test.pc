@@ -1,0 +1,8 @@
+prefix=/home/jasper/flap_ws/devel/.private/rosserial_test
+
+Name: rosserial_test
+Description: Description of rosserial_test
+Version: 0.9.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rosserial_msgs std_msgs

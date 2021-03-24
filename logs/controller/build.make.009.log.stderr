@@ -1,0 +1,7 @@
+[01m[K/home/jasper/flap_ws/src/controller/src/bird_data_compiler_2.cpp:[m[K In function ‘[01m[Kvoid callback(const ConstPtr&, const ConstPtr&, const ConstPtr&)[m[K’:
+[01m[K/home/jasper/flap_ws/src/controller/src/bird_data_compiler_2.cpp:47:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg2[m[K’
+ << msg2->twist.linear.x << "," << msg2->twist.linear.y << "," [01;31m[Kmsg2[m[K->twist.linear.z << ","
+                                                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/bird_data_compiler.dir/src/bird_data_compiler_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/bird_data_compiler.dir/all] Error 2
+make: *** [all] Error 2

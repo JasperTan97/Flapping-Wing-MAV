@@ -1,0 +1,18 @@
+<launch>
+
+	<node
+		pkg="controller"
+		type="bird_data_compiler"
+		name="bird_data_compiler_node"
+
+	/>
+
+	<node 
+		pkg="controller" 
+		type="arduino1970" 
+		name="Arduino_1970"
+
+	/>
+
+
+</launch>

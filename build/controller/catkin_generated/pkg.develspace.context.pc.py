@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;geometry_msgs;custommsg;message_filters".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lcontroller".split(';') if "-lcontroller" != "" else []
 PROJECT_NAME = "controller"
-PROJECT_SPACE_DIR = "/home/jasper/flap_ws/devel"
+PROJECT_SPACE_DIR = "/home/jasper/flap_ws/devel/.private/controller"
 PROJECT_VERSION = "0.0.0"

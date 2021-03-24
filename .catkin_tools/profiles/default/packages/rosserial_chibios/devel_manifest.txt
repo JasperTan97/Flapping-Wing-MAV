@@ -1,0 +1,5 @@
+rosserial/rosserial_chibios
+/home/jasper/flap_ws/devel/.private/rosserial_chibios/cmake.lock /home/jasper/flap_ws/devel/./cmake.lock
+/home/jasper/flap_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake /home/jasper/flap_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake /home/jasper/flap_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_chibios.pc

@@ -1,0 +1,19 @@
+In file included from [01m[K/usr/include/boost/function/detail/maybe_include.hpp:18:0[m[K,
+                 from [01m[K/usr/include/boost/function/detail/function_iterate.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:52[m[K,
+                 from [01m[K/usr/include/boost/function.hpp:64[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/forwards.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/jasper/flap_ws/src/controller/src/arduino1970.cpp:1[m[K:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘[01m[Kstatic void boost::detail::function::void_function_invoker1<FunctionPtr, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionPtr = void (*)(boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&][m[K’:
+[01m[K/usr/include/boost/function/function_template.hpp:925:38:[m[K   required from ‘[01m[Kvoid boost::function1<R, T1>::assign_to(Functor) [with Functor = void (*)(boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:716:7:[m[K   required from ‘[01m[Kboost::function1<R, T1>::function1(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/usr/include/boost/function/function_template.hpp:1061:16:[m[K   required from ‘[01m[Kboost::function<R(T0)>::function(Functor, typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type) [with Functor = void (*)(boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&); R = void; T0 = const boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&; typename boost::enable_if_c<(! boost::is_integral<Functor>::value), int>::type = int][m[K’
+[01m[K/home/jasper/flap_ws/src/controller/src/arduino1970.cpp:30:87:[m[K   required from here
+[01m[K/usr/include/boost/function/function_template.hpp:118:11:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kboost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >&[m[K’ to ‘[01m[Kconst boost::shared_ptr<const custommsg::ppmchnls_<std::allocator<void> > >[m[K’ discards qualifiers
+           [01;31m[KB[m[KOOST_FUNCTION_RETURN(f(BOOST_FUNCTION_ARGS));
+           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/arduino1970.dir/src/arduino1970.cpp.o] Error 1
+make[1]: *** [CMakeFiles/arduino1970.dir/all] Error 2
+make: *** [all] Error 2

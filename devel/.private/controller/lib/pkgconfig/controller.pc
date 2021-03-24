@@ -1,0 +1,8 @@
+prefix=/home/jasper/flap_ws/devel/.private/controller
+
+Name: controller
+Description: Description of controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lcontroller
+Requires: roscpp std_msgs geometry_msgs custommsg message_filters

@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/_index.js

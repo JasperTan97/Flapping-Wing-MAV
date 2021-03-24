@@ -68,7 +68,7 @@ set(controller_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(controller_SOURCE_PREFIX /home/jasper/flap_ws/src/controller)
-  set(controller_DEVEL_PREFIX /home/jasper/flap_ws/devel)
+  set(controller_DEVEL_PREFIX /home/jasper/flap_ws/devel/.private/controller)
   set(controller_INSTALL_PREFIX "")
   set(controller_PREFIX ${controller_DEVEL_PREFIX})
 else()

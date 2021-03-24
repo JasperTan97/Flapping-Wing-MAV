@@ -1,0 +1,5 @@
+rosserial/rosserial_embeddedlinux
+/home/jasper/flap_ws/devel/.private/rosserial_embeddedlinux/cmake.lock /home/jasper/flap_ws/devel/./cmake.lock
+/home/jasper/flap_ws/devel/.private/rosserial_embeddedlinux/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig.cmake /home/jasper/flap_ws/devel/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_embeddedlinux/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig-version.cmake /home/jasper/flap_ws/devel/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig-version.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_embeddedlinux/lib/pkgconfig/rosserial_embeddedlinux.pc /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_embeddedlinux.pc

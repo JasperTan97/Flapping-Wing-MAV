@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jasper/flap_ws/devel/.private/rosserial_vex_v5/setup.sh

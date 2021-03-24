@@ -1,4 +1,4 @@
-std_msgs/Header header
+Header header
 uint16 chn1
 uint16 chn2
 uint16 chn3

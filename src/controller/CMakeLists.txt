@@ -107,7 +107,7 @@ catkin_package(
 INCLUDE_DIRS 
 LIBRARIES controller
 CATKIN_DEPENDS roscpp std_msgs geometry_msgs custommsg message_filters
-DEPENDS system_lib
+## DEPENDS 
 )
 
 ###########
@@ -137,6 +137,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/controller_node.cpp)
 
 add_executable(bird_data_compiler src/bird_data_compiler_2.cpp)
+add_executable(arduino1970 src/arduino1970.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,6 +150,7 @@ add_executable(bird_data_compiler src/bird_data_compiler_2.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 add_dependencies(bird_data_compiler ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(arduino1970 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
 # target_link_libraries(${PROJECT_NAME}_node
@@ -156,6 +158,7 @@ add_dependencies(bird_data_compiler ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin
 # )
 
 target_link_libraries(bird_data_compiler   ${catkin_LIBRARIES} ${boost_LIBRARIES})
+target_link_libraries(arduino1970   ${catkin_LIBRARIES} ${boost_LIBRARIES})
 
 #############
 ## Install ##

@@ -1,0 +1,5 @@
+rosserial/rosserial_test
+/home/jasper/flap_ws/devel/.private/rosserial_test/cmake.lock /home/jasper/flap_ws/devel/./cmake.lock
+/home/jasper/flap_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig.cmake /home/jasper/flap_ws/devel/share/rosserial_test/cmake/rosserial_testConfig.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake /home/jasper/flap_ws/devel/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_test/lib/pkgconfig/rosserial_test.pc /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_test.pc

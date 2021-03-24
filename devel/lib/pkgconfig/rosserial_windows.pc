@@ -1,8 +1,1 @@
-prefix=/home/jasper/flap_ws/devel
-
-Name: rosserial_windows
-Description: Description of rosserial_windows
-Version: 0.9.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/jasper/flap_ws/devel/.private/rosserial_windows/lib/pkgconfig/rosserial_windows.pc

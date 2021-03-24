@@ -68,7 +68,7 @@ set(custommsg_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(custommsg_SOURCE_PREFIX /home/jasper/flap_ws/src/custommsg)
-  set(custommsg_DEVEL_PREFIX /home/jasper/flap_ws/devel)
+  set(custommsg_DEVEL_PREFIX /home/jasper/flap_ws/devel/.private/custommsg)
   set(custommsg_INSTALL_PREFIX "")
   set(custommsg_PREFIX ${custommsg_DEVEL_PREFIX})
 else()

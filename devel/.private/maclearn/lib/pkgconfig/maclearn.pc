@@ -1,0 +1,8 @@
+prefix=/home/jasper/flap_ws/devel/.private/maclearn
+
+Name: maclearn
+Description: Description of maclearn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+controller
+/home/jasper/flap_ws/devel/.private/controller/cmake.lock /home/jasper/flap_ws/devel/./cmake.lock
+/home/jasper/flap_ws/devel/.private/controller/share/controller/cmake/controllerConfig.cmake /home/jasper/flap_ws/devel/share/controller/cmake/controllerConfig.cmake
+/home/jasper/flap_ws/devel/.private/controller/share/controller/cmake/controllerConfig-version.cmake /home/jasper/flap_ws/devel/share/controller/cmake/controllerConfig-version.cmake
+/home/jasper/flap_ws/devel/.private/controller/lib/pkgconfig/controller.pc /home/jasper/flap_ws/devel/lib/pkgconfig/controller.pc
+/home/jasper/flap_ws/devel/.private/controller/lib/controller/bird_data_compiler /home/jasper/flap_ws/devel/lib/controller/bird_data_compiler
+/home/jasper/flap_ws/devel/.private/controller/lib/controller/arduino1970 /home/jasper/flap_ws/devel/lib/controller/arduino1970

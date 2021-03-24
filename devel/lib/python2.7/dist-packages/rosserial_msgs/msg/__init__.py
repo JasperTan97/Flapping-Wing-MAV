@@ -1,2 +1,1 @@
-from ._Log import *
-from ._TopicInfo import *
+/home/jasper/flap_ws/devel/.private/rosserial_msgs/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py

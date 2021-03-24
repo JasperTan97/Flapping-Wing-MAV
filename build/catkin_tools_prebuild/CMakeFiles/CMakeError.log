@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58c0c.dir/build.make CMakeFiles/cmTC_58c0c.dir/build
+make[1]: Entering directory '/home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c0c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_58c0c.dir/CheckSymbolExists.c.o   -c /home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_58c0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c0c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_58c0c.dir/CheckSymbolExists.c.o  -o cmTC_58c0c 
+CMakeFiles/cmTC_58c0c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_58c0c.dir/build.make:97: recipe for target 'cmTC_58c0c' failed
+make[1]: *** [cmTC_58c0c] Error 1
+make[1]: Leaving directory '/home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_58c0c/fast' failed
+make: *** [cmTC_58c0c/fast] Error 2
+
+File /home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2de5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2de5e.dir/build.make CMakeFiles/cmTC_2de5e.dir/build
+make[1]: Entering directory '/home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2de5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2de5e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2de5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2de5e.dir/CheckFunctionExists.c.o  -o cmTC_2de5e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2de5e.dir/build.make:97: recipe for target 'cmTC_2de5e' failed
+make[1]: *** [cmTC_2de5e] Error 1
+make[1]: Leaving directory '/home/jasper/flap_ws/build/catkin_tools_prebuild/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2de5e/fast' failed
+make: *** [cmTC_2de5e/fast] Error 2
+
+

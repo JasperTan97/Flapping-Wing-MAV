@@ -1,8 +1,1 @@
-
-"use strict";
-
-let ppmchnls = require('./ppmchnls.js');
-
-module.exports = {
-  ppmchnls: ppmchnls,
-};
+/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/_index.js

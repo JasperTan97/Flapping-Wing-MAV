@@ -1,0 +1,6 @@
+rosserial/rosserial_python
+/home/jasper/flap_ws/devel/.private/rosserial_python/cmake.lock /home/jasper/flap_ws/devel/./cmake.lock
+/home/jasper/flap_ws/devel/.private/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake /home/jasper/flap_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig.cmake /home/jasper/flap_ws/devel/share/rosserial_python/cmake/rosserial_pythonConfig.cmake
+/home/jasper/flap_ws/devel/.private/rosserial_python/lib/pkgconfig/rosserial_python.pc /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_python.pc
+/home/jasper/flap_ws/devel/.private/rosserial_python/lib/python2.7/dist-packages/rosserial_python/__init__.py /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/rosserial_python/__init__.py
