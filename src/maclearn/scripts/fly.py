@@ -90,7 +90,7 @@ file_list[4] += '/terminal.csv'
 agent = Agent(model, discount_rate, lr_actor, lr_critic, action_space, tau, max_mem_size, batch_size, noise,
 	max_action, min_action, update_target, training_name, state_space)
 # make global publisher
-pub_arduino = rospy.Publisher('channel_values_time', ppmchnls, queue_size=10)
+pub_arduino = rospy.Publisher('channel_values_toarduino', ppmchnls, queue_size=10)
 # starting x,y,z coordinates & setter bool
 start_x, start_y, start_z = 0, 0, 0
 first_msg = True
@@ -181,7 +181,7 @@ def callback(pose, twist, accel): # rmb to normalise
 def ros_fly():
 
 	# initialise node and subscribers
-	rospy.init_node('bird_data_compiler_node_py', anonymous=True)
+	rospy.init_node('bird_data_compiler_node_py', anonymous=True, disable_signals = True)
 	sub_vicon_pose = message_filters.Subscriber('/mavros/vision_pose/pose', PoseStamped)
 	sub_vicon_twist = message_filters.Subscriber('/vrpn_client_node/flapusp/twist', TwistStamped)
 	sub_vicon_accel = message_filters.Subscriber('/vrpn_client_node/flapusp/accel', AccelStamped)
@@ -198,18 +198,24 @@ def ros_fly():
 	while not rospy.is_shutdown():
 		for episode in range(episodes):
 			rospy.info("COMMENCING EPISODE {}".format(episode + 1))
-			while not episode_is_done:
-		        if agent.model == "DDPG":
-			        nn_training_loss_log.append(agent.apply_gradients_DDPG())
-			        # nn_training_episode_log.append(x+1)
-			check = input("The training for episode {} has terminated, reset bird and press any key to continue")
-			first_msg = True
-			episode_is_done = False
+			try:
+				while not episode_is_done:
+			        if agent.model == "DDPG":
+				        nn_training_loss_log.append(agent.apply_gradients_DDPG())
+				        # nn_training_episode_log.append(x+1)
+				check = input("The training for episode {} has terminated, reset bird and press any key to continue")
+				first_msg = True
+				episode_is_done = False
+			except KeyboardInterrupt:
+				check = input("The training for episode {} has terminated, reset bird and press any key to continue")
+				first_msg = True
+				episode_is_done = False
 
 		# rate.sleep()
 	if save_data:
 		agent.memory.save_replay_buffer(file_list)
 
+	rospy.info("Training has ended")
 
 
 #if __name__ == "__main__":
