@@ -70,6 +70,8 @@ class replay_buffer:
         actions = self.action_log[batch]
         rewards = self.reward_log[batch]
         is_dones = self.terminal_log[batch]
+
+        # CAN ADD CODE FOR NORMALISE
         
         return states, actions, rewards, states_prime, is_dones
 

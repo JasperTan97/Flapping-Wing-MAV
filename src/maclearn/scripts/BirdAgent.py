@@ -167,8 +167,8 @@ class Agent:
         
     def select_actions(self, observations, mode):
         
-        """ function to select actions for each leg from observations from return_reward_obv_leg """
-        """ observations should be a (60, 8) numpy array """
+        """ function to select actions for each leg from observations from vicon state """
+        """ observations should be a (19,) numpy array """
         
         # list to return actions in numpy 
         actions_list = []
@@ -193,7 +193,8 @@ class Agent:
             # ensure actions are within range 
             actions = tf.clip_by_value(actions, self.min_action, self.max_action)
             
-            return actions[0] 
+            # [0] needed as NN outputs in (1,action_space)
+            return actions.numpy()[0] 
 
     def apply_gradients_DDPG(self):
         
