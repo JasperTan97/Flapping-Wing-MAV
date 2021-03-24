@@ -18,11 +18,11 @@ import shutil
 
 # define parameters
 # SPECIFY TRAINING NAME
-training_name = "insert_training_name_here"
+training_name = "LMAOOOO"
 # Specify the Algorithm/Model to use
 model = "DDPG" # 'MAA2C', 'MAD3QN' --> multi-agent approch OR 'A2C_MultiAction', 'A2C_SingleAction', 'DDPG' --> single-agent approach
 # Specify number of Episodes to run for
-episodes = 10
+episodes = 4
 # Action Space (number of channels output)
 action_space = 4
 # State Space
@@ -61,10 +61,13 @@ goal_mode = "move_up"
 goal_instance = "1"
 move_up_dist = 2 # in metres
 max_sideways_radius = 1 # in metres
+time_limit = 2 #np.inf # in seconds (set to infinity first as we dont wanna activate this temrination yet)
+
+dirname = os.path.dirname(__file__)
 
 # file paths to save replay data
 try:
-	os.mkdir('../replay_data/' + goal_mode + "_" + goal_instance)
+	os.mkdir(os.path.join(dirname, '../replay_data/' + goal_mode + "_" + goal_instance))
 except:
 	check = input("The instance {} of goal {} already exists, do you want to build on this replay data? (y/n)".format(goal_instance, goal_mode))
 	if (check.lower() == 'y'):
@@ -73,12 +76,13 @@ except:
 		while(True):
 			goal_instance = str(int(goal_instance) + 1)
 			try:
-				os.mkdir('../replay_data/' + goal_mode + "_" + goal_instance)
+				os.mkdir(os.path.join(dirname, '../replay_data/' + goal_mode + "_" + goal_instance))
 				"A separate directory of {}_{} has been created".format(goal_mode, goal_instance)
+				break
 			except:
 				pass
 
-file_list = ['../replay_data/' + goal_mode + "_" + goal_instance] * 5
+file_list = [os.path.join(dirname, '../replay_data/' + goal_mode + "_" + goal_instance)] * 5
 file_list[0] += '/state.csv'
 file_list[1] += '/state_prime.csv'
 file_list[2] += '/action.csv'
@@ -86,19 +90,18 @@ file_list[3] += '/reward.csv'
 file_list[4] += '/terminal.csv'
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~ GLOBAL VARIABLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-# make global agent
 agent = Agent(model, discount_rate, lr_actor, lr_critic, action_space, tau, max_mem_size, batch_size, noise,
 	max_action, min_action, update_target, training_name, state_space)
-# make global publisher
 pub_arduino = rospy.Publisher('channel_values_toarduino', ppmchnls, queue_size=10)
-# starting x,y,z coordinates & setter bool
 start_x, start_y, start_z = 0, 0, 0
 first_msg = True
-# global np state array and prev_action
+start_time = 0
+
 state = []
 prev_action = tf.zeros((action_space))
-episode_is_done = False
-
+episode_is_done = 0
+best_time = np.inf
+buffer_saved = True
 # load saved models if testing
 if mode == "test" or mode == "load_n_train":
 	agent.load_all_models()
@@ -107,17 +110,21 @@ if mode == "test" or mode == "load_n_train":
 if mode == "load_n_train":
 	agent.memory.load_replay_buffer(file_list)
 
-def check_is_done(state_prime):
+def check_is_done(state_prime, time_taken):
 	""" function to check of goal has been reached """
 
 	# termination check (within radius)
 	if (pow(state_prime[0], 2) + pow(state_prime[1], 2) > pow(max_sideways_radius, 2)):
-		return True
+		return 2
 
-	if goal_mode == "move_up"
+	# termination check (takes too long)
+	if (time_taken > time_limit):
+		return 3
+
+	if goal_mode == "move_up":
 		if state_prime[2] > move_up_dist:
-			return True
-	return False
+			return 1
+	return 0
 
 def return_reward(state, state_prime):
 	""" function to determine reward """
@@ -127,8 +134,14 @@ def return_reward(state, state_prime):
 
 def callback(pose, twist, accel): # rmb to normalise
 
+	global first_msg, episode_is_done, start_x, start_y, start_z, start_time, state, prev_action, best_time, buffer_saved, save_best_model, save_data
+
+	if not episode_is_done:
+		print("callback smooth sailing bodooohhhh")
+
 	# record the starting x,y,z coordinate of the MAV
 	if first_msg:
+		start_time = time.time()
 		start_x, start_y, start_z = pose.pose.position.x, pose.pose.position.y, pose.pose.position.z
 
 	# use the ROS callback to get the 19 states (via VICON)
@@ -143,24 +156,37 @@ def callback(pose, twist, accel): # rmb to normalise
 
 	# see if the episode goal has been reached or the flight failed (only check if episode is not already done)
 	if not episode_is_done:
-		episode_is_done = check_is_done(state_prime)
+		episode_is_done = check_is_done(state_prime, time.time() - start_time)
 
 	# create chnl msg
 	chnl_msg = ppmchnls()
 
 	if episode_is_done:
+		if save_data:
+			buffer_saved = False
 		# MIGHT CHANGE
 		# FAILSAFE MODE
 		chnl_msg.chn1=chnl_msg.chn2=chnl_msg.chn3=chnl_msg.chn4=chnl_msg.chn5=chnl_msg.chn6=chnl_msg.chn7=chnl_msg.chn8 = min_PPM
-			if save_data:
-				agent.memory.save_replay_buffer(file_list)
+		
+		if save_data:
+			agent.memory.save_replay_buffer(file_list)
+			buffer_saved = True
+			save_data = False
+
+		if save_best_model:
+			if (episode_is_done == 1 and time.time() - start_time < best_time):
+				best_time = time.time() - start_time
+				agent.save_all_models()
+				save_best_model = False
+
+
 	else:
 		# PUBLISH TO CHANNELS (HARDCODED FOR DUAL MOTOR  + DUAL SERVO MAV)
 		chnl_msg.chn1 = int(action[0])
 		chnl_msg.chn2 = int(action[1])
 		chnl_msg.chn3 = int(action[2])
 		chnl_msg.chn4 = int(action[3])
-		chnl_msg.chn5, chnl_msg.chn6, chnl_msg.chn7, chnl_msg.chn8 = min_PPM
+		chnl_msg.chn5=chnl_msg.chn6=chnl_msg.chn7=chnl_msg.chn8 = min_PPM
 
 	pub_arduino.publish(chnl_msg)
 
@@ -173,7 +199,7 @@ def callback(pose, twist, accel): # rmb to normalise
 
 	# only store memory if episode is running
 	if not episode_is_done:
-		agent.store_memory(state, action_prev, return_reward(state, state_prime), state_prime, episode_is_done)
+		agent.store_memory(state, prev_action, return_reward(state, state_prime), state_prime, episode_is_done)
 
 		state = state_prime[:]
 		prev_action = np.copy(action)
@@ -192,31 +218,46 @@ def ros_fly():
 	# register callback
 	ts.registerCallback(callback)
 	
-	# rate = rospy.Rate(2) # 10hz
+	rate = rospy.Rate(2) # 10hz
 	nn_training_loss_log = []
+
+	global episode_is_done, first_msg, buffer_saved, save_best_model, save_data
 
 	while not rospy.is_shutdown():
 		for episode in range(episodes):
-			rospy.info("COMMENCING EPISODE {}".format(episode + 1))
+			rospy.loginfo("COMMENCING EPISODE {}".format(episode + 1))
 			try:
 				while not episode_is_done:
-			        if agent.model == "DDPG":
-				        nn_training_loss_log.append(agent.apply_gradients_DDPG())
-				        # nn_training_episode_log.append(x+1)
-				check = input("The training for episode {} has terminated, reset bird and press any key to continue")
+					if agent.model == "DDPG" and mode != "test":
+						nn_training_loss_log.append(agent.apply_gradients_DDPG())
+					rate.sleep()
+				rospy.loginfo("The training for episode {} has terminated, Buffer is loading...")
+				while not buffer_saved:
+					pass
+				if episode < episodes - 1:
+					check = input("Buffer saved! Reset bird and press any key to continue\n")
 				first_msg = True
-				episode_is_done = False
+				episode_is_done = 0
+				save_data = True
+				save_replay_buffer = True
 			except KeyboardInterrupt:
-				check = input("The training for episode {} has terminated, reset bird and press any key to continue")
+				save_data = False
+				save_best_model = False
+				episode_is_done = 99
+				agent.memory.save_replay_buffer(file_list)
+				if episode < episodes - 1:
+					check = input("The training for episode {} has terminated, reset bird and press any key to continue")
 				first_msg = True
-				episode_is_done = False
-
+				episode_is_done = 0
+				save_data = True
+				save_replay_buffer = True
+		break
 		# rate.sleep()
 	if save_data:
 		agent.memory.save_replay_buffer(file_list)
 
-	rospy.info("Training has ended")
+	rospy.loginfo("Training has ended")
 
 
-#if __name__ == "__main__":
-ros_fly()
+if __name__ == "__main__":
+	ros_fly()

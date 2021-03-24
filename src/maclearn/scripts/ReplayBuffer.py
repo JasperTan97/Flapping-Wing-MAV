@@ -100,9 +100,9 @@ class replay_buffer:
         """ function that takes in list of csv file paths to save replay buffer """ 
          
         # save the elements of replay buffer to csv files
-        np.savetxt(file_list[0], state_log, delimiter=',')
-        np.savetxt(file_list[1], state_prime_log, delimiter=',')
-        np.savetxt(file_list[2], action_log, delimiter=',')
-        np.savetxt(file_list[3], reward_log, delimiter=',')
-        np.savetxt(file_list[4], terminal_log, delimiter=',')
+        np.savetxt(file_list[0], self.state_log[:self.mem_counter % self.mem_size], delimiter=',')
+        np.savetxt(file_list[1], self.state_prime_log[:self.mem_counter % self.mem_size], delimiter=',')
+        np.savetxt(file_list[2], self.action_log[:self.mem_counter % self.mem_size], delimiter=',')
+        np.savetxt(file_list[3], self.reward_log[:self.mem_counter % self.mem_size], delimiter=',')
+        np.savetxt(file_list[4], self.terminal_log[:self.mem_counter % self.mem_size], delimiter=',')
 

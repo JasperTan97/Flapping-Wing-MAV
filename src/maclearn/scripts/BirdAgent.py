@@ -202,7 +202,7 @@ class Agent:
         """ learns from replay buffer """
         # doesnt not apply gradients if memory does not have at least batch_size number of logs
         if self.memory.mem_counter < self.batch_size:
-            return
+            return 0
         
         # randomly sample batch of memory of state, action, state_prime, reward, terminal flag from memory log
         state, action, reward, state_prime, is_done = self.memory.sample_log(self.batch_size)
