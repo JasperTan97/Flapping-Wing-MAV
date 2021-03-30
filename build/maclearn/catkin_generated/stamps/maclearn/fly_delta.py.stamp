@@ -64,7 +64,7 @@ update_target = None
 tau = 0.005
 # Replay memory size and batch size for MAD3QN and DDPG
 max_mem_size = 1000000
-batch_size = 512
+batch_size = 10
 # Half range for delta of PPM delta = +- half_range
 delta_half_range = 200
 noise = 0
@@ -75,7 +75,7 @@ goal_mode = "move_up"
 goal_instance = "1"
 move_up_dist = 1.2 # in metres
 max_sideways_radius = 2.2 # in metres
-time_limit = 150 #np.inf # in seconds (set to infinity first as we dont wanna activate this temrination yet)
+time_limit = np.inf #np.inf # in seconds (set to infinity first as we dont wanna activate this temrination yet)
 
 dirname = os.path.dirname(__file__)
 
@@ -159,8 +159,7 @@ def return_reward(state, state_prime):
 
 def callback(kinematics): # rmb to normalise
 
-	global first_msg, pub_arduino, failsafe_PPM, dead_PPM, episode_is_done, start_x, start_y, start_z, start_time, state, 
-	prev_action, best_time, save_best_model, save_terminal_data, ppm_val, init_PPM
+	global first_msg, pub_arduino, failsafe_PPM, dead_PPM, episode_is_done, start_x, start_y, start_z, start_time, state, prev_action, best_time, save_best_model, save_terminal_data, ppm_val, init_PPM
 
 	# record the starting x,y,z coordinate of the MAV
 	if first_msg:
@@ -181,8 +180,8 @@ def callback(kinematics): # rmb to normalise
 
 	# get the action (scale [-1,1] to [min_PPM, max_PPM])
 	action = agent.select_actions(state_prime, mode)
-	ppm_val = np.clip(ppm_val + np.append(action, [0,0,0,0]), min_PPM, max_PPM)
-
+	ppm_val = np.clip(ppm_val + np.append(action, [0,0,0,0]), np.append(min_PPM, [0,0,0,0]), np.append(max_PPM, [0,0,0,0])).astype(int)
+	print(ppm_val)
 	# see if the episode goal has been reached or the flight failed (only check if episode is not already done)
 	if not episode_is_done:
 		episode_is_done = check_is_done(state_prime, time.time() - start_time)
