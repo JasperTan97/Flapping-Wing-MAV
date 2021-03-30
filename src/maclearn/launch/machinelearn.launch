@@ -1,0 +1,19 @@
+<launch>
+
+	<node
+		pkg="maclearn"
+		type="fly.py"
+		name="bird_data_compiler_node_py"
+		output="screen"
+
+	/>
+
+	<node 
+		pkg="maclearn" 
+		type="threeinone.py" 
+		name="pose_twist_accel_compiler_node_py"
+
+	/>
+
+
+</launch>

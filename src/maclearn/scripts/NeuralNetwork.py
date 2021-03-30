@@ -6,6 +6,7 @@ Purpose : efficiently generate model architecture by building from subclasses
 
 # Standard Import
 import tensorflow as tf
+import os
 
 class fc_block(tf.keras.layers.Layer):
     
@@ -51,7 +52,7 @@ class fc_model(tf.keras.Model):
         self.model = model
          
         # checkpoint directory
-        self.checkpoint_dir = "Saved_Models/" + training_name + "_" + "best_models/"
+        self.checkpoint_dir =  "../Saved_Models/" + training_name + "_" + "best_models/"
         
         # checkpoint filepath 
         self.checkpoint_path = None

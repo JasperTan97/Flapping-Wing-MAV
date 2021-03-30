@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custommsg_generate_messages_nodejs"
+  "/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/kinematicstamped.js"
   "/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/ppmchnls.js"
 )
 

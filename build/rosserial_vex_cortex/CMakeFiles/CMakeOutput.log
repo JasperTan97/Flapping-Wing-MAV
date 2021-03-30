@@ -1,4 +1,4 @@
-The system is: Linux - 5.4.0-67-generic - x86_64
+The system is: Linux - 5.4.0-70-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/jasper/flap_ws/build/ros
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_83ca5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_83ca5.dir/build.make CMakeFiles/cmTC_83ca5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_147c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_147c6.dir/build.make CMakeFiles/cmTC_147c6.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83ca5.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_83ca5.dir/testCCompiler.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_83ca5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83ca5.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_83ca5.dir/testCCompiler.c.o  -o cmTC_83ca5 
+Building C object CMakeFiles/cmTC_147c6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_147c6.dir/testCCompiler.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_147c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_147c6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_147c6.dir/testCCompiler.c.o  -o cmTC_147c6 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e37d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e37d3.dir/build.make CMakeFiles/cmTC_e37d3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_37f76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_37f76.dir/build.make CMakeFiles/cmTC_37f76.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_e37d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37d3.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o  -o cmTC_e37d3 
+Building C object CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_37f76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f76.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o  -o cmTC_37f76 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,9 +61,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e37d3' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN7WhNL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e37d3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e37d3' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37f76' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNOipOP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_37f76 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37f76' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -71,14 +71,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e37d3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e37d3.dir/build.make CMakeFiles/cmTC_e37d3.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_37f76/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_37f76.dir/build.make CMakeFiles/cmTC_37f76.dir/build]
   ignore line: [make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_e37d3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e37d3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o  -o cmTC_e37d3 ]
+  ignore line: [Building C object CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_37f76]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f76.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o  -o cmTC_37f76 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e37d3' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN7WhNL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e37d3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37f76' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNOipOP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_37f76 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccN7WhNL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNOipOP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -114,7 +114,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e37d3] ==> ignore
+    arg [cmTC_37f76] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -126,7 +126,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_e37d3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_37f76.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -158,14 +158,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8a55/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8a55.dir/build.make CMakeFiles/cmTC_c8a55.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b366b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b366b.dir/build.make CMakeFiles/cmTC_b366b.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c8a55.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c8a55.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c8a55
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a55.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c8a55.dir/feature_tests.c.o  -o cmTC_c8a55 
+Building C object CMakeFiles/cmTC_b366b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b366b.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b366b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b366b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b366b.dir/feature_tests.c.o  -o cmTC_b366b 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -178,14 +178,14 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70f17/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70f17.dir/build.make CMakeFiles/cmTC_70f17.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1c424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c424.dir/build.make CMakeFiles/cmTC_1c424.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70f17.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_70f17.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_70f17
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70f17.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_70f17.dir/feature_tests.c.o  -o cmTC_70f17 
+Building C object CMakeFiles/cmTC_1c424.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1c424.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1c424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c424.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1c424.dir/feature_tests.c.o  -o cmTC_1c424 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -198,14 +198,14 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1203a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1203a.dir/build.make CMakeFiles/cmTC_1203a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_39a93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39a93.dir/build.make CMakeFiles/cmTC_39a93.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1203a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_1203a.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1203a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1203a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_1203a.dir/feature_tests.c.o  -o cmTC_1203a 
+Building C object CMakeFiles/cmTC_39a93.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_39a93.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39a93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39a93.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_39a93.dir/feature_tests.c.o  -o cmTC_39a93 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -216,28 +216,28 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_95001/fast"
-/usr/bin/make -f CMakeFiles/cmTC_95001.dir/build.make CMakeFiles/cmTC_95001.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e5e32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5e32.dir/build.make CMakeFiles/cmTC_e5e32.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_95001.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_95001.dir/testCXXCompiler.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_95001
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95001.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_95001.dir/testCXXCompiler.cxx.o  -o cmTC_95001 
+Building CXX object CMakeFiles/cmTC_e5e32.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_e5e32.dir/testCXXCompiler.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e5e32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e32.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e5e32.dir/testCXXCompiler.cxx.o  -o cmTC_e5e32 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49c4b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49c4b.dir/build.make CMakeFiles/cmTC_49c4b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a1faa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1faa.dir/build.make CMakeFiles/cmTC_a1faa.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_49c4b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49c4b.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49c4b 
+Building CXX object CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a1faa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1faa.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1faa 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -249,9 +249,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49c4b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwerfAX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49c4b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49c4b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1faa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6kjhMC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1faa /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1faa' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -259,14 +259,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_49c4b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_49c4b.dir/build.make CMakeFiles/cmTC_49c4b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a1faa/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a1faa.dir/build.make CMakeFiles/cmTC_a1faa.dir/build]
   ignore line: [make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_49c4b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49c4b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_49c4b ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a1faa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1faa.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1faa ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -278,13 +278,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_49c4b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwerfAX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_49c4b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1faa' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6kjhMC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1faa /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccwerfAX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6kjhMC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -302,7 +302,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_49c4b] ==> ignore
+    arg [cmTC_a1faa] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -314,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_49c4b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a1faa.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,14 +342,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0ec3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f0ec3.dir/build.make CMakeFiles/cmTC_f0ec3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e04d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e04d3.dir/build.make CMakeFiles/cmTC_e04d3.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f0ec3.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_f0ec3.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f0ec3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ec3.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f0ec3.dir/feature_tests.cxx.o  -o cmTC_f0ec3 
+Building CXX object CMakeFiles/cmTC_e04d3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_e04d3.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e04d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e04d3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e04d3.dir/feature_tests.cxx.o  -o cmTC_e04d3 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -415,14 +415,14 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9eaf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9eaf.dir/build.make CMakeFiles/cmTC_b9eaf.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_66bb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66bb3.dir/build.make CMakeFiles/cmTC_66bb3.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b9eaf.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b9eaf.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b9eaf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9eaf.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b9eaf.dir/feature_tests.cxx.o  -o cmTC_b9eaf 
+Building CXX object CMakeFiles/cmTC_66bb3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_66bb3.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_66bb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66bb3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_66bb3.dir/feature_tests.cxx.o  -o cmTC_66bb3 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -488,14 +488,14 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_370a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_370a0.dir/build.make CMakeFiles/cmTC_370a0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_02108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02108.dir/build.make CMakeFiles/cmTC_02108.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_370a0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_370a0.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_370a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_370a0.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_370a0.dir/feature_tests.cxx.o  -o cmTC_370a0 
+Building CXX object CMakeFiles/cmTC_02108.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_02108.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_02108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02108.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_02108.dir/feature_tests.cxx.o  -o cmTC_02108 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -561,14 +561,14 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4f5a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4f5a.dir/build.make CMakeFiles/cmTC_f4f5a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_bedef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bedef.dir/build.make CMakeFiles/cmTC_bedef.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4f5a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_f4f5a.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f4f5a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4f5a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_f4f5a.dir/feature_tests.cxx.o  -o cmTC_f4f5a 
+Building CXX object CMakeFiles/cmTC_bedef.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_bedef.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bedef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bedef.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_bedef.dir/feature_tests.cxx.o  -o cmTC_bedef 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
@@ -632,28 +632,28 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMak
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5497c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5497c.dir/build.make CMakeFiles/cmTC_5497c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_defe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_defe0.dir/build.make CMakeFiles/cmTC_defe0.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5497c.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5497c.dir/CheckIncludeFile.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5497c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5497c.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5497c.dir/CheckIncludeFile.c.o  -o cmTC_5497c 
+Building C object CMakeFiles/cmTC_defe0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_defe0.dir/CheckIncludeFile.c.o   -c /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_defe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_defe0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_defe0.dir/CheckIncludeFile.c.o  -o cmTC_defe0 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f8044/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f8044.dir/build.make CMakeFiles/cmTC_f8044.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ca186/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca186.dir/build.make CMakeFiles/cmTC_ca186.dir/build
 make[1]: Entering directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f8044.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f8044.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f8044
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8044.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f8044.dir/CheckFunctionExists.c.o  -o cmTC_f8044 -lpthread 
+Building C object CMakeFiles/cmTC_ca186.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ca186.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca186.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ca186.dir/CheckFunctionExists.c.o  -o cmTC_ca186 -lpthread 
 make[1]: Leaving directory '/home/jasper/flap_ws/build/rosserial_vex_cortex/CMakeFiles/CMakeTmp'
 
 

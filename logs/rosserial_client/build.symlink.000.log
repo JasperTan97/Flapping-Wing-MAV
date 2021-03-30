@@ -1,0 +1,4 @@
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_client/cmake/rosserial_clientConfig.cmake
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_client/cmake/rosserial_clientConfig-version.cmake
+Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_client.pc
+Symlinking /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/rosserial_client/__init__.py

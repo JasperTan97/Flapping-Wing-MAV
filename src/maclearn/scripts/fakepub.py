@@ -21,7 +21,7 @@ def fakepub():
 	msg_twist.twist.linear.y = 6
 	msg_accel.accel.linear.z = -8
 
-	rate = rospy.Rate(15)
+	rate = rospy.Rate(30)
 
 	while not rospy.is_shutdown():
 

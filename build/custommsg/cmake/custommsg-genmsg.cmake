@@ -1,8 +1,8 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "custommsg: 1 messages, 0 services")
+message(STATUS "custommsg: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Icustommsg:/home/jasper/flap_ws/src/custommsg/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Icustommsg:/home/jasper/flap_ws/src/custommsg/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,6 +17,11 @@ add_custom_target(custommsg_generate_messages ALL)
 
 
 
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_custom_target(_custommsg_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "custommsg" "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" "geometry_msgs/Accel:geometry_msgs/Twist:geometry_msgs/Vector3:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point"
+)
+
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_custom_target(_custommsg_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "custommsg" "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" "std_msgs/Header"
@@ -28,6 +33,12 @@ add_custom_target(_custommsg_generate_messages_check_deps_${_filename}
 
 ### Section generating for lang: gencpp
 ### Generating Messages
+_generate_msg_cpp(custommsg
+  "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/custommsg
+)
 _generate_msg_cpp(custommsg
   "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
   "${MSG_I_FLAGS}"
@@ -49,6 +60,8 @@ add_custom_target(custommsg_generate_messages_cpp
 add_dependencies(custommsg_generate_messages custommsg_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_dependencies(custommsg_generate_messages_cpp _custommsg_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_dependencies(custommsg_generate_messages_cpp _custommsg_generate_messages_check_deps_${_filename})
 
@@ -61,6 +74,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS custommsg_generate_messages_cpp)
 
 ### Section generating for lang: geneus
 ### Generating Messages
+_generate_msg_eus(custommsg
+  "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/custommsg
+)
 _generate_msg_eus(custommsg
   "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
   "${MSG_I_FLAGS}"
@@ -82,6 +101,8 @@ add_custom_target(custommsg_generate_messages_eus
 add_dependencies(custommsg_generate_messages custommsg_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_dependencies(custommsg_generate_messages_eus _custommsg_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_dependencies(custommsg_generate_messages_eus _custommsg_generate_messages_check_deps_${_filename})
 
@@ -94,6 +115,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS custommsg_generate_messages_eus)
 
 ### Section generating for lang: genlisp
 ### Generating Messages
+_generate_msg_lisp(custommsg
+  "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/custommsg
+)
 _generate_msg_lisp(custommsg
   "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
   "${MSG_I_FLAGS}"
@@ -115,6 +142,8 @@ add_custom_target(custommsg_generate_messages_lisp
 add_dependencies(custommsg_generate_messages custommsg_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_dependencies(custommsg_generate_messages_lisp _custommsg_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_dependencies(custommsg_generate_messages_lisp _custommsg_generate_messages_check_deps_${_filename})
 
@@ -127,6 +156,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS custommsg_generate_messages_lisp)
 
 ### Section generating for lang: gennodejs
 ### Generating Messages
+_generate_msg_nodejs(custommsg
+  "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/custommsg
+)
 _generate_msg_nodejs(custommsg
   "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
   "${MSG_I_FLAGS}"
@@ -148,6 +183,8 @@ add_custom_target(custommsg_generate_messages_nodejs
 add_dependencies(custommsg_generate_messages custommsg_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_dependencies(custommsg_generate_messages_nodejs _custommsg_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_dependencies(custommsg_generate_messages_nodejs _custommsg_generate_messages_check_deps_${_filename})
 
@@ -160,6 +197,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS custommsg_generate_messages_nodejs)
 
 ### Section generating for lang: genpy
 ### Generating Messages
+_generate_msg_py(custommsg
+  "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Accel.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/custommsg
+)
 _generate_msg_py(custommsg
   "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
   "${MSG_I_FLAGS}"
@@ -181,6 +224,8 @@ add_custom_target(custommsg_generate_messages_py
 add_dependencies(custommsg_generate_messages custommsg_generate_messages_py)
 
 # add dependencies to all check dependencies targets
+get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg" NAME_WE)
+add_dependencies(custommsg_generate_messages_py _custommsg_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg" NAME_WE)
 add_dependencies(custommsg_generate_messages_py _custommsg_generate_messages_check_deps_${_filename})
 
@@ -203,6 +248,9 @@ endif()
 if(TARGET std_msgs_generate_messages_cpp)
   add_dependencies(custommsg_generate_messages_cpp std_msgs_generate_messages_cpp)
 endif()
+if(TARGET geometry_msgs_generate_messages_cpp)
+  add_dependencies(custommsg_generate_messages_cpp geometry_msgs_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/custommsg)
   # install generated code
@@ -213,6 +261,9 @@ if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cu
 endif()
 if(TARGET std_msgs_generate_messages_eus)
   add_dependencies(custommsg_generate_messages_eus std_msgs_generate_messages_eus)
+endif()
+if(TARGET geometry_msgs_generate_messages_eus)
+  add_dependencies(custommsg_generate_messages_eus geometry_msgs_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/custommsg)
@@ -225,6 +276,9 @@ endif()
 if(TARGET std_msgs_generate_messages_lisp)
   add_dependencies(custommsg_generate_messages_lisp std_msgs_generate_messages_lisp)
 endif()
+if(TARGET geometry_msgs_generate_messages_lisp)
+  add_dependencies(custommsg_generate_messages_lisp geometry_msgs_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/custommsg)
   # install generated code
@@ -235,6 +289,9 @@ if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_D
 endif()
 if(TARGET std_msgs_generate_messages_nodejs)
   add_dependencies(custommsg_generate_messages_nodejs std_msgs_generate_messages_nodejs)
+endif()
+if(TARGET geometry_msgs_generate_messages_nodejs)
+  add_dependencies(custommsg_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/custommsg)
@@ -247,4 +304,7 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cust
 endif()
 if(TARGET std_msgs_generate_messages_py)
   add_dependencies(custommsg_generate_messages_py std_msgs_generate_messages_py)
+endif()
+if(TARGET geometry_msgs_generate_messages_py)
+  add_dependencies(custommsg_generate_messages_py geometry_msgs_generate_messages_py)
 endif()

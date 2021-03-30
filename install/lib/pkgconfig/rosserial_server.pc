@@ -1,8 +1,0 @@
-prefix=/home/jasper/flap_ws/install
-
-Name: rosserial_server
-Description: Description of rosserial_server
-Version: 0.9.1
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lrosserial_server_lookup
-Requires: roscpp rosserial_msgs std_msgs topic_tools

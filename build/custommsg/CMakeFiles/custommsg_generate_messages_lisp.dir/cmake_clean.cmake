@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custommsg_generate_messages_lisp"
+  "/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp"
   "/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp"
 )
 

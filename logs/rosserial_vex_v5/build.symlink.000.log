@@ -1,0 +1,4 @@
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_vex_v5/cmake/rosserial_vex_v5Config.cmake
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_vex_v5/cmake/rosserial_vex_v5Config-version.cmake
+Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_vex_v5.pc
+Symlinking /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/rosserial_vex_v5/__init__.py

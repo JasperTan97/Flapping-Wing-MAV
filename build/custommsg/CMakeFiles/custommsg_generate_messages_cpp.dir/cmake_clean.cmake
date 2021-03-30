@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custommsg_generate_messages_cpp"
+  "/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/kinematicstamped.h"
   "/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/ppmchnls.h"
 )
 

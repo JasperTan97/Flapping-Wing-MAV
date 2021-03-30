@@ -1,0 +1,18 @@
+<launch>
+
+	<node
+		pkg="maclearn"
+		type="fly_delta.py"
+		name="fly_delta"
+
+	/>
+
+	<node 
+		pkg="maclearn" 
+		type="threeinone.py" 
+		name="pose_twist_accel_compiler_node_py"
+
+	/>
+
+
+</launch>

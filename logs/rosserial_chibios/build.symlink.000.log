@@ -1,0 +1,3 @@
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+Symlinking /home/jasper/flap_ws/devel/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake
+Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_chibios.pc

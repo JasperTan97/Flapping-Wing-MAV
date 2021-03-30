@@ -1,5 +1,6 @@
 # Standard Imports
 import tensorflow as tf
+import rospy
 import numpy as np
 import os
 # ME5406 Imports
@@ -36,6 +37,9 @@ class Agent:
         
         # stores action space
         self.action_space = action_space
+
+        # to print when apply gradients is active
+        self.print_active = True
         
         if self.model == "DDPG":
             
@@ -71,7 +75,7 @@ class Agent:
             self.DDPG_Actor.model_name = "DDPG_Actor"
 
             # update actor checkpoints_path attributes
-            self.DDPG_Actor.checkpoint_path = os.path.join(self.DDPG_Actor.checkpoint_dir, self.DDPG_Actor.model_name)
+            self.DDPG_Actor.checkpoint_path = os.path.join(os.path.dirname(__file__), self.DDPG_Actor.checkpoint_dir, self.DDPG_Actor.model_name)
             
             # intialise target actor model
             self.DDPG_Target_Actor = fc_model(model = "DDPG_Actor", 
@@ -83,7 +87,7 @@ class Agent:
             self.DDPG_Target_Actor.model_name = "DDPG_Target_Actor"
 
             # update target actor checkpoints_path attributes
-            self.DDPG_Target_Actor.checkpoint_path = os.path.join(self.DDPG_Target_Actor.checkpoint_dir, self.DDPG_Target_Actor.model_name)
+            self.DDPG_Target_Actor.checkpoint_path = os.path.join(os.path.dirname(__file__), self.DDPG_Target_Actor.checkpoint_dir, self.DDPG_Target_Actor.model_name)
             
             # intialise critic model
             self.DDPG_Critic = fc_model(model = "DDPG_Critic",
@@ -94,7 +98,7 @@ class Agent:
             self.DDPG_Critic.model_name = "DDPG_Critic"
 
             # update critic checkpoints_path attributes
-            self.DDPG_Critic.checkpoint_path = os.path.join(self.DDPG_Critic.checkpoint_dir, self.DDPG_Critic.model_name)
+            self.DDPG_Critic.checkpoint_path = os.path.join(os.path.dirname(__file__), self.DDPG_Critic.checkpoint_dir, self.DDPG_Critic.model_name)
             
             # intialise target critic model
             self.DDPG_Target_Critic = fc_model(model = "DDPG_Critic",
@@ -105,7 +109,7 @@ class Agent:
             self.DDPG_Target_Critic.model_name = "DDPG_Target_Critic"
 
             # update target critic checkpoints_path attributes
-            self.DDPG_Target_Critic.checkpoint_path = os.path.join(self.DDPG_Target_Critic.checkpoint_dir, 
+            self.DDPG_Target_Critic.checkpoint_path = os.path.join(os.path.dirname(__file__), self.DDPG_Target_Critic.checkpoint_dir, 
                                                               self.DDPG_Target_Critic.model_name)
             
             # compile actor, target_actor, critic, target_critic
@@ -191,7 +195,7 @@ class Agent:
                 actions += tf.random.normal(shape = [self.action_space], mean = 0.0, stddev = self.noise)
             
             # ensure actions are within range 
-            actions = tf.clip_by_value(actions, self.min_action, self.max_action)
+            # actions = tf.clip_by_value(actions, self.min_action, self.max_action)
             
             # [0] needed as NN outputs in (1,action_space)
             return actions.numpy()[0] 
@@ -203,6 +207,10 @@ class Agent:
         # doesnt not apply gradients if memory does not have at least batch_size number of logs
         if self.memory.mem_counter < self.batch_size:
             return 0
+
+        if self.print_active:
+            rospy.loginfo("Agent has started learning")
+            self.print_active = False
         
         # randomly sample batch of memory of state, action, state_prime, reward, terminal flag from memory log
         state, action, reward, state_prime, is_done = self.memory.sample_log(self.batch_size)

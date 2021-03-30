@@ -1,0 +1,5 @@
+Symlinking /home/jasper/flap_ws/devel/share/controller/cmake/controllerConfig.cmake
+Symlinking /home/jasper/flap_ws/devel/share/controller/cmake/controllerConfig-version.cmake
+Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/controller.pc
+Symlinking /home/jasper/flap_ws/devel/lib/controller/bird_data_compiler
+Symlinking /home/jasper/flap_ws/devel/lib/controller/arduino1970

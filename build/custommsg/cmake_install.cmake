@@ -129,7 +129,10 @@ file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE FILE FILES "/home/j
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/msg" TYPE FILE FILES "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/msg" TYPE FILE FILES
+    "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
+    "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

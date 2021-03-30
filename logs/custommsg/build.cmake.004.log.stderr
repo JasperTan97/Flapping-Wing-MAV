@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/assert.cmake:20 (message):
+
+
+  Assertion failed: file
+  '/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg' does not
+  exist.  Message: message file not found
+
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:113 (assert_file_exists)
+  CMakeLists.txt:51 (add_message_files)
+
+

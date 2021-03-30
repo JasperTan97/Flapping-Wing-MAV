@@ -1,8 +1,0 @@
-prefix=/home/jasper/flap_ws/install
-
-Name: controller
-Description: Description of controller
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

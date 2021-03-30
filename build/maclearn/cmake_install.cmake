@@ -151,6 +151,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/maclearn" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/maclearn/catkin_generated/installspace/fly.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/maclearn" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/maclearn/catkin_generated/installspace/fly_delta.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/maclearn" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/maclearn/catkin_generated/installspace/fly_delta.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/maclearn" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/maclearn/catkin_generated/installspace/threeinone.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/maclearn" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/maclearn/catkin_generated/installspace/threeinone.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jasper/flap_ws/build/maclearn/gtest/cmake_install.cmake")
