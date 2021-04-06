@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jasper/flap_ws/src/custommsg
+CMAKE_SOURCE_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jasper/flap_ws/build/custommsg
+CMAKE_BINARY_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/jasper/flap_ws/build/custommsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jasper/flap_ws/src/custommsg /home/jasper/flap_ws/src/custommsg /home/jasper/flap_ws/build/custommsg /home/jasper/flap_ws/build/custommsg /home/jasper/flap_ws/build/custommsg/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg /home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg /home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg /home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg /home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

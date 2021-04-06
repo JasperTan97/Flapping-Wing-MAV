@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_80146/fast"
-/usr/bin/make -f CMakeFiles/cmTC_80146.dir/build.make CMakeFiles/cmTC_80146.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_80146.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_80146.dir/CheckSymbolExists.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_80146
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80146.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_80146.dir/CheckSymbolExists.c.o  -o cmTC_80146 
-CMakeFiles/cmTC_80146.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_70484/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70484.dir/build.make CMakeFiles/cmTC_70484.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70484.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_70484.dir/CheckSymbolExists.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_70484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70484.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_70484.dir/CheckSymbolExists.c.o  -o cmTC_70484 
+CMakeFiles/cmTC_70484.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_80146.dir/build.make:97: recipe for target 'cmTC_80146' failed
-make[1]: *** [cmTC_80146] Error 1
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_80146/fast' failed
-make: *** [cmTC_80146/fast] Error 2
+CMakeFiles/cmTC_70484.dir/build.make:97: recipe for target 'cmTC_70484' failed
+make[1]: *** [cmTC_70484] Error 1
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_70484/fast' failed
+make: *** [cmTC_70484/fast] Error 2
 
-File /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22db3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22db3.dir/build.make CMakeFiles/cmTC_22db3.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22db3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_22db3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_22db3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22db3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_22db3.dir/CheckFunctionExists.c.o  -o cmTC_22db3 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_4e3fb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e3fb.dir/build.make CMakeFiles/cmTC_4e3fb.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e3fb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4e3fb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e3fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e3fb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4e3fb.dir/CheckFunctionExists.c.o  -o cmTC_4e3fb -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_22db3.dir/build.make:97: recipe for target 'cmTC_22db3' failed
-make[1]: *** [cmTC_22db3] Error 1
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_22db3/fast' failed
-make: *** [cmTC_22db3/fast] Error 2
+CMakeFiles/cmTC_4e3fb.dir/build.make:97: recipe for target 'cmTC_4e3fb' failed
+make[1]: *** [cmTC_4e3fb] Error 1
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e3fb/fast' failed
+make: *** [cmTC_4e3fb/fast] Error 2
 
 

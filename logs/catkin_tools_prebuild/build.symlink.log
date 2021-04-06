@@ -1,12 +1,46 @@
-Symlinking /home/jasper/flap_ws/devel/./_setup_util.py
-Symlinking /home/jasper/flap_ws/devel/./setup.sh
-Symlinking /home/jasper/flap_ws/devel/./local_setup.bash
-Symlinking /home/jasper/flap_ws/devel/./local_setup.sh
-Symlinking /home/jasper/flap_ws/devel/./setup.bash
-Symlinking /home/jasper/flap_ws/devel/./setup.zsh
-Symlinking /home/jasper/flap_ws/devel/./cmake.lock
-Symlinking /home/jasper/flap_ws/devel/./local_setup.zsh
-Symlinking /home/jasper/flap_ws/devel/./env.sh
-Symlinking /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Symlinking /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./local_setup.bash
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./setup.bash
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./env.sh
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./cmake.lock
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./_setup_util.py
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./local_setup.zsh
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./setup.zsh
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./local_setup.sh
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/./setup.sh
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/jasper/flap_ws/devel/./_setup_util.py)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/setup.sh, /home/jasper/flap_ws/devel/./setup.sh)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/jasper/flap_ws/devel/./local_setup.bash)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/jasper/flap_ws/devel/./local_setup.sh)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/setup.bash, /home/jasper/flap_ws/devel/./setup.bash)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/setup.zsh, /home/jasper/flap_ws/devel/./setup.zsh)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/cmake.lock, /home/jasper/flap_ws/devel/./cmake.lock)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/jasper/flap_ws/devel/./local_setup.zsh)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/env.sh, /home/jasper/flap_ws/devel/./env.sh)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/jasper/flap_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Unlinking: /home/jasper/flap_ws/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}

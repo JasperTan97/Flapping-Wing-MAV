@@ -1,10 +1,10 @@
 
 "use strict";
 
-let ppmchnls = require('./ppmchnls.js');
 let kinematicstamped = require('./kinematicstamped.js');
+let ppmchnls = require('./ppmchnls.js');
 
 module.exports = {
-  ppmchnls: ppmchnls,
   kinematicstamped: kinematicstamped,
+  ppmchnls: ppmchnls,
 };

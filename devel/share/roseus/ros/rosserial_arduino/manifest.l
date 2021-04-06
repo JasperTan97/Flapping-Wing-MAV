@@ -1,1 +1,0 @@
-/home/jasper/flap_ws/devel/.private/rosserial_arduino/share/roseus/ros/rosserial_arduino/manifest.l

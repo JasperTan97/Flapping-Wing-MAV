@@ -1,4 +1,4 @@
-prefix=/home/jasper/flap_ws/devel/.private/maclearn
+prefix=/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/maclearn
 
 Name: maclearn
 Description: Description of maclearn

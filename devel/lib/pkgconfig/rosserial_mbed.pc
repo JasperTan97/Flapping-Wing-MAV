@@ -1,1 +1,0 @@
-/home/jasper/flap_ws/devel/.private/rosserial_mbed/lib/pkgconfig/rosserial_mbed.pc

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jasper/flap_ws/devel/.private/controller:$CMAKE_PREFIX_PATH"
-export PWD='/home/jasper/flap_ws/build/controller'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jasper/flap_ws/devel/.private/controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jasper/flap_ws/src/controller:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller:$CMAKE_PREFIX_PATH"
+export PWD='/home/arijitnoobstar/Flapping-Wing-MAV/build/controller'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/arijitnoobstar/Flapping-Wing-MAV/src/controller:$ROS_PACKAGE_PATH"

@@ -67,14 +67,14 @@ set(controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(controller_SOURCE_PREFIX /home/jasper/flap_ws/src/controller)
-  set(controller_DEVEL_PREFIX /home/jasper/flap_ws/devel/.private/controller)
+  set(controller_SOURCE_PREFIX /home/arijitnoobstar/Flapping-Wing-MAV/src/controller)
+  set(controller_DEVEL_PREFIX /home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller)
   set(controller_INSTALL_PREFIX "")
   set(controller_PREFIX ${controller_DEVEL_PREFIX})
 else()
   set(controller_SOURCE_PREFIX "")
   set(controller_DEVEL_PREFIX "")
-  set(controller_INSTALL_PREFIX /home/jasper/flap_ws/install)
+  set(controller_INSTALL_PREFIX /home/arijitnoobstar/Flapping-Wing-MAV/install)
   set(controller_PREFIX ${controller_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jasper/flap_ws/install/lib;/home/jasper/flap_ws/devel/lib;/home/jasper/birb_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/arijitnoobstar/Flapping-Wing-MAV/install/lib;/home/arijitnoobstar/Flapping-Wing-MAV/devel/lib;/home/arijitnoobstar/UAVProjectileCatcher/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

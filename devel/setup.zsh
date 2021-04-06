@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/catkin_tools_prebuild/setup.zsh

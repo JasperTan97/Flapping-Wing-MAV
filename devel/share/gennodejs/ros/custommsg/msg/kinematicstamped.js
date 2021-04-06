@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/kinematicstamped.js
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/kinematicstamped.js

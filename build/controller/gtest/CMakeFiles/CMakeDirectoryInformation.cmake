@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jasper/flap_ws/build/controller")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/arijitnoobstar/Flapping-Wing-MAV/build/controller")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

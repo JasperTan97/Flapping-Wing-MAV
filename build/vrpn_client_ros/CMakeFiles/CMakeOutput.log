@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c503/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5c503.dir/build.make CMakeFiles/cmTC_5c503.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c503.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5c503.dir/testCCompiler.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_5c503
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c503.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5c503.dir/testCCompiler.c.o  -o cmTC_5c503 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c526d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c526d.dir/build.make CMakeFiles/cmTC_c526d.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c526d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c526d.dir/testCCompiler.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c526d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c526d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c526d.dir/testCCompiler.c.o  -o cmTC_c526d 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bce50/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bce50.dir/build.make CMakeFiles/cmTC_bce50.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_bce50
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce50.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o  -o cmTC_bce50 
+Run Build Command:"/usr/bin/make" "cmTC_f5b68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5b68.dir/build.make CMakeFiles/cmTC_f5b68.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f5b68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b68.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o  -o cmTC_f5b68 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bce50' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhJxgi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bce50 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bce50' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5b68' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctITQE9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5b68 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5b68' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bce50/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bce50.dir/build.make CMakeFiles/cmTC_bce50.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_bce50]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce50.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o  -o cmTC_bce50 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f5b68/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f5b68.dir/build.make CMakeFiles/cmTC_f5b68.dir/build]
+  ignore line: [make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f5b68]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b68.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o  -o cmTC_f5b68 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_bce50' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGhJxgi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_bce50 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f5b68' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cctITQE9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f5b68 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccGhJxgi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctITQE9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bce50] ==> ignore
+    arg [cmTC_f5b68] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_bce50.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f5b68.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_534a4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_534a4.dir/build.make CMakeFiles/cmTC_534a4.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_534a4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_534a4.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.c
-Linking C executable cmTC_534a4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_534a4.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_534a4.dir/feature_tests.c.o  -o cmTC_534a4 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fc980/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc980.dir/build.make CMakeFiles/cmTC_fc980.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc980.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_fc980.dir/feature_tests.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fc980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc980.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_fc980.dir/feature_tests.c.o  -o cmTC_fc980 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_af1ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_af1ad.dir/build.make CMakeFiles/cmTC_af1ad.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_af1ad.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_af1ad.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.c
-Linking C executable cmTC_af1ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af1ad.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_af1ad.dir/feature_tests.c.o  -o cmTC_af1ad 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2ed92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ed92.dir/build.make CMakeFiles/cmTC_2ed92.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ed92.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2ed92.dir/feature_tests.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2ed92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ed92.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2ed92.dir/feature_tests.c.o  -o cmTC_2ed92 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d0720/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d0720.dir/build.make CMakeFiles/cmTC_d0720.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0720.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d0720.dir/feature_tests.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d0720
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0720.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d0720.dir/feature_tests.c.o  -o cmTC_d0720 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5077f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5077f.dir/build.make CMakeFiles/cmTC_5077f.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5077f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_5077f.dir/feature_tests.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5077f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5077f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5077f.dir/feature_tests.c.o  -o cmTC_5077f 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88bac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_88bac.dir/build.make CMakeFiles/cmTC_88bac.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_88bac.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_88bac.dir/testCXXCompiler.cxx.o -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_88bac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88bac.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_88bac.dir/testCXXCompiler.cxx.o  -o cmTC_88bac 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ea894/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea894.dir/build.make CMakeFiles/cmTC_ea894.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea894.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ea894.dir/testCXXCompiler.cxx.o -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ea894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea894.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_ea894.dir/testCXXCompiler.cxx.o  -o cmTC_ea894 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_413f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_413f4.dir/build.make CMakeFiles/cmTC_413f4.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_413f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_413f4.dir/link.txt --verbose=1
-/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_413f4 
+Run Build Command:"/usr/bin/make" "cmTC_ebe73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebe73.dir/build.make CMakeFiles/cmTC_ebe73.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ebe73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe73.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ebe73 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_413f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVx6PsN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_413f4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_413f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebe73' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZUiWA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebe73 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebe73' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_413f4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_413f4.dir/build.make CMakeFiles/cmTC_413f4.dir/build]
-  ignore line: [make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_413f4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_413f4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_413f4 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ebe73/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ebe73.dir/build.make CMakeFiles/cmTC_ebe73.dir/build]
+  ignore line: [make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_ebe73]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe73.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ebe73 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_413f4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVx6PsN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_413f4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ebe73' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cclZUiWA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ebe73 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccVx6PsN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclZUiWA.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_413f4] ==> ignore
+    arg [cmTC_ebe73] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_413f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ebe73.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4e4c4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4e4c4.dir/build.make CMakeFiles/cmTC_4e4c4.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4e4c4.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_4e4c4.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4e4c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e4c4.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4e4c4.dir/feature_tests.cxx.o  -o cmTC_4e4c4 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_eda41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eda41.dir/build.make CMakeFiles/cmTC_eda41.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eda41.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_eda41.dir/feature_tests.cxx.o -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_eda41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda41.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_eda41.dir/feature_tests.cxx.o  -o cmTC_eda41 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_30d6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_30d6d.dir/build.make CMakeFiles/cmTC_30d6d.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_30d6d.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_30d6d.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_30d6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d6d.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_30d6d.dir/feature_tests.cxx.o  -o cmTC_30d6d 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_becfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_becfb.dir/build.make CMakeFiles/cmTC_becfb.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_becfb.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_becfb.dir/feature_tests.cxx.o -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_becfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_becfb.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_becfb.dir/feature_tests.cxx.o  -o cmTC_becfb 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_944b0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_944b0.dir/build.make CMakeFiles/cmTC_944b0.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_944b0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_944b0.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_944b0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944b0.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_944b0.dir/feature_tests.cxx.o  -o cmTC_944b0 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a0362/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0362.dir/build.make CMakeFiles/cmTC_a0362.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a0362.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_a0362.dir/feature_tests.cxx.o -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a0362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0362.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_a0362.dir/feature_tests.cxx.o  -o cmTC_a0362 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4560a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4560a.dir/build.make CMakeFiles/cmTC_4560a.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4560a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4560a.dir/feature_tests.cxx.o -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4560a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4560a.dir/link.txt --verbose=1
-/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4560a.dir/feature_tests.cxx.o  -o cmTC_4560a 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4bba5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4bba5.dir/build.make CMakeFiles/cmTC_4bba5.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bba5.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_4bba5.dir/feature_tests.cxx.o -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4bba5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bba5.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_4bba5.dir/feature_tests.cxx.o  -o cmTC_4bba5 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,30 +632,30 @@ make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFile
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df609/fast"
-/usr/bin/make -f CMakeFiles/cmTC_df609.dir/build.make CMakeFiles/cmTC_df609.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_df609.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_df609.dir/CheckIncludeFile.c.o   -c /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_df609
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df609.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_df609.dir/CheckIncludeFile.c.o  -o cmTC_df609 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_44f11/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44f11.dir/build.make CMakeFiles/cmTC_44f11.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44f11.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44f11.dir/CheckIncludeFile.c.o   -c /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44f11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44f11.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_44f11.dir/CheckIncludeFile.c.o  -o cmTC_44f11 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp
+Change Dir: /home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f18f2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f18f2.dir/build.make CMakeFiles/cmTC_f18f2.dir/build
-make[1]: Entering directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f18f2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f18f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_f18f2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f18f2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f18f2.dir/CheckFunctionExists.c.o  -o cmTC_f18f2 -lpthread 
-make[1]: Leaving directory '/home/jasper/flap_ws/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e7dda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7dda.dir/build.make CMakeFiles/cmTC_e7dda.dir/build
+make[1]: Entering directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7dda.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e7dda.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7dda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7dda.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e7dda.dir/CheckFunctionExists.c.o  -o cmTC_e7dda -lpthread 
+make[1]: Leaving directory '/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros/CMakeFiles/CMakeTmp'
 
 

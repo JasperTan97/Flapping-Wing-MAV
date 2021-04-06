@@ -1,6 +1,6 @@
-devel_space: /home/jasper/flap_ws/devel
+devel_space: /home/arijitnoobstar/Flapping-Wing-MAV/devel
 install: false
-install_space: /home/jasper/flap_ws/install
+install_space: /home/arijitnoobstar/Flapping-Wing-MAV/install
 profile: default
-source_space: /home/jasper/flap_ws/src
-workspace: /home/jasper/flap_ws
+source_space: /home/arijitnoobstar/Flapping-Wing-MAV/src
+workspace: /home/arijitnoobstar/Flapping-Wing-MAV

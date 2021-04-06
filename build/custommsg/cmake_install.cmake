@@ -1,8 +1,8 @@
-# Install script for directory: /home/jasper/flap_ws/src/custommsg
+# Install script for directory: /home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jasper/flap_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/arijitnoobstar/Flapping-Wing-MAV/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,142 +49,142 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/_setup_util.py")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE PROGRAM FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/env.sh")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE PROGRAM FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE PROGRAM FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/setup.bash;/home/jasper/flap_ws/install/local_setup.bash")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/setup.bash;/home/arijitnoobstar/Flapping-Wing-MAV/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE FILE FILES
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/setup.bash"
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE FILE FILES
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/setup.bash"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/setup.sh;/home/jasper/flap_ws/install/local_setup.sh")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/setup.sh;/home/arijitnoobstar/Flapping-Wing-MAV/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE FILE FILES
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/setup.sh"
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE FILE FILES
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/setup.sh"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/setup.zsh;/home/jasper/flap_ws/install/local_setup.zsh")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/setup.zsh;/home/arijitnoobstar/Flapping-Wing-MAV/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE FILE FILES
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/setup.zsh"
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE FILE FILES
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/setup.zsh"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jasper/flap_ws/install/.rosinstall")
+   "/home/arijitnoobstar/Flapping-Wing-MAV/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jasper/flap_ws/install" TYPE FILE FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/arijitnoobstar/Flapping-Wing-MAV/install" TYPE FILE FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/msg" TYPE FILE FILES
-    "/home/jasper/flap_ws/src/custommsg/msg/ppmchnls.msg"
-    "/home/jasper/flap_ws/src/custommsg/msg/kinematicstamped.msg"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg/msg/ppmchnls.msg"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg/msg/kinematicstamped.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/cmake" TYPE FILE FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/custommsg-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/cmake" TYPE FILE FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/custommsg-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/include/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/roseus/ros/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/common-lisp/ros/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/gennodejs/ros/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/custommsg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/custommsg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/cmake" TYPE FILE FILES "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/custommsg-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/cmake" TYPE FILE FILES "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/custommsg-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg/cmake" TYPE FILE FILES
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/custommsgConfig.cmake"
-    "/home/jasper/flap_ws/build/custommsg/catkin_generated/installspace/custommsgConfig-version.cmake"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/custommsgConfig.cmake"
+    "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/catkin_generated/installspace/custommsgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg" TYPE FILE FILES "/home/jasper/flap_ws/src/custommsg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/custommsg" TYPE FILE FILES "/home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jasper/flap_ws/build/custommsg/gtest/cmake_install.cmake")
+  include("/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/gtest/cmake_install.cmake")
 
 endif()
 
@@ -196,5 +196,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jasper/flap_ws/build/custommsg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/arijitnoobstar/Flapping-Wing-MAV/build/custommsg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

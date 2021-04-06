@@ -1,8 +1,0 @@
-prefix=/home/jasper/flap_ws/devel/.private/rosserial_tivac
-
-Name: rosserial_tivac
-Description: Description of rosserial_tivac
-Version: 0.9.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

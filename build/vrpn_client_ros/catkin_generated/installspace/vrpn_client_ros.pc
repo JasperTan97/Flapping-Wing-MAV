@@ -1,4 +1,4 @@
-prefix=/home/jasper/flap_ws/install
+prefix=/home/arijitnoobstar/Flapping-Wing-MAV/install
 
 Name: vrpn_client_ros
 Description: Description of vrpn_client_ros

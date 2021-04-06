@@ -1,6 +1,25 @@
-Symlinking /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
-Symlinking /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
-Symlinking /home/jasper/flap_ws/devel/lib/libvrpn_client_ros.so
-Symlinking /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_tracker_node
-Symlinking /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_client_node
-Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/vrpn_client_ros.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/libvrpn_client_ros.so
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/pkgconfig/vrpn_client_ros.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/vrpn_client_ros/vrpn_tracker_node
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/vrpn_client_ros/vrpn_client_node
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/cmake.lock, /home/jasper/flap_ws/devel/./cmake.lock)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake, /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake, /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/lib/libvrpn_client_ros.so, /home/jasper/flap_ws/devel/lib/libvrpn_client_ros.so)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node, /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_tracker_node)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node, /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_client_node)
+Cleaning: (/home/jasper/flap_ws/devel/.private/vrpn_client_ros/lib/pkgconfig/vrpn_client_ros.pc, /home/jasper/flap_ws/devel/lib/pkgconfig/vrpn_client_ros.pc)
+Unlinking: /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/libvrpn_client_ros.so
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_tracker_node
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/vrpn_client_ros/vrpn_client_node
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/pkgconfig/vrpn_client_ros.pc
+Already unlinked: {}

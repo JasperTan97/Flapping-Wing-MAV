@@ -1,3 +1,13 @@
-Symlinking /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig-version.cmake
-Symlinking /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig.cmake
-Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/maclearn.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/pkgconfig/maclearn.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/maclearn/cmake/maclearnConfig-version.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/maclearn/cmake/maclearnConfig.cmake
+Cleaning: (/home/jasper/flap_ws/devel/.private/maclearn/cmake.lock, /home/jasper/flap_ws/devel/./cmake.lock)
+Cleaning: (/home/jasper/flap_ws/devel/.private/maclearn/share/maclearn/cmake/maclearnConfig-version.cmake, /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig-version.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/maclearn/share/maclearn/cmake/maclearnConfig.cmake, /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/maclearn/lib/pkgconfig/maclearn.pc, /home/jasper/flap_ws/devel/lib/pkgconfig/maclearn.pc)
+Unlinking: /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/maclearn/cmake/maclearnConfig.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/pkgconfig/maclearn.pc
+Already unlinked: {}

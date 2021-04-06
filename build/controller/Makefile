@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jasper/flap_ws/src/controller
+CMAKE_SOURCE_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/src/controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jasper/flap_ws/build/controller
+CMAKE_BINARY_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/build/controller
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jasper/flap_ws/build/controller/CMakeFiles /home/jasper/flap_ws/build/controller/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arijitnoobstar/Flapping-Wing-MAV/build/controller/CMakeFiles /home/arijitnoobstar/Flapping-Wing-MAV/build/controller/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jasper/flap_ws/build/controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arijitnoobstar/Flapping-Wing-MAV/build/controller/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

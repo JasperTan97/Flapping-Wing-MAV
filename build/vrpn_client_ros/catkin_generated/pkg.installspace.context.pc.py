@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/opt/ros/melodic/include".s
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;tf2_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lvrpn_client_ros;/opt/ros/melodic/lib/libvrpn.a;/opt/ros/melodic/lib/libquat.a;-lm;-lpthread".split(';') if "-lvrpn_client_ros;/opt/ros/melodic/lib/libvrpn.a;/opt/ros/melodic/lib/libquat.a;-lm;-lpthread" != "" else []
 PROJECT_NAME = "vrpn_client_ros"
-PROJECT_SPACE_DIR = "/home/jasper/flap_ws/install"
+PROJECT_SPACE_DIR = "/home/arijitnoobstar/Flapping-Wing-MAV/install"
 PROJECT_VERSION = "0.2.2"

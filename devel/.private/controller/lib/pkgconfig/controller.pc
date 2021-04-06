@@ -1,4 +1,4 @@
-prefix=/home/jasper/flap_ws/devel/.private/controller
+prefix=/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller
 
 Name: controller
 Description: Description of controller

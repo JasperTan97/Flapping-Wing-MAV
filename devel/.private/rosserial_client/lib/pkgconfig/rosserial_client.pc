@@ -1,8 +1,0 @@
-prefix=/home/jasper/flap_ws/devel/.private/rosserial_client
-
-Name: rosserial_client
-Description: Description of rosserial_client
-Version: 0.9.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

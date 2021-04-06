@@ -10,6 +10,7 @@ from ReplayBuffer import *
 from BirdAgent import *
 
 # Standard Imports
+from copy import deepcopy
 import pandas as pd
 import numpy as np
 import math
@@ -19,11 +20,11 @@ import shutil
 
 # define parameters
 # SPECIFY TRAINING NAME
-training_name = "debugging"
+training_name = "first_training"
 # Specify the Algorithm/Model to use
 model = "DDPG" # 'MAA2C', 'MAD3QN' --> multi-agent approch OR 'A2C_MultiAction', 'A2C_SingleAction', 'DDPG' --> single-agent approach
 # Specify number of Episodes to run for
-episodes = 1
+episodes = 3
 # Action Space (number of channels output)
 action_space = 4
 # State Space [19 pose/twist/accel + 4 PPM absolute values]
@@ -36,8 +37,8 @@ save_terminal_data = True
 mode = "train"
 #~~~~~~~~~~~~~~~~~~~~~~~~ PARAMETERS FOR BIRD TRAINING ~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # min and max PPM value (microsec)
-min_PPM = np.array([1100, 1100, 1450, 1330])
-max_PPM = np.array([1900, 1900, 1780, 1800])
+min_PPM = np.array([1100, 1100, 1270, 1270])
+max_PPM = np.array([1900, 1900, 1740, 1740])
 dead_PPM = 1100
 # initial motor PPM value (1100 - 1900)
 init_PPM = 1600
@@ -75,7 +76,8 @@ goal_mode = "move_up"
 goal_instance = "1"
 move_up_dist = 1.2 # in metres
 max_sideways_radius = 2.2 # in metres
-time_limit = np.inf #np.inf # in seconds (set to infinity first as we dont wanna activate this temrination yet)
+bottom_raw_z = 0.20 # VERIFY USING VICON DATA (in metres)
+time_limit = np.inf#np.inf #np.inf # in seconds (set to infinity first as we dont wanna activate this temrination yet)
 
 dirname = os.path.dirname(__file__)
 
@@ -126,13 +128,15 @@ if mode == "test" or mode == "load_n_train":
 if mode == "load_n_train":
 	agent.memory.load_replay_buffer(file_list)
 
-def check_is_done(state_prime, time_taken):
+def check_is_done(state_prime, raw_z, time_taken):
 	""" function to check of goal has been reached """
 
 	# termination check (within radius of cylinder)
+	'''
 	if (pow(state_prime[0], 2) + pow(state_prime[1], 2) > pow(max_sideways_radius, 2)):
 		rospy.loginfo("Bird has exceeded maximum radius of {}m".format(max_sideways_radius))
 		return 2
+	'''
 
 	# termination check (takes too long)
 	if (time_taken > time_limit):
@@ -140,10 +144,8 @@ def check_is_done(state_prime, time_taken):
 		return 3
 
 	# termination check (within radius of hemisphere of string)
-	#if (pow(state_prime[0], 2) + pow(state_prime[1], 2) + pow(state_prime[2] + ceiling_height, 2) > pow(free_rad, 2)):
-	#	print("4")
-
-	#	return 4
+	if (pow(state_prime[0], 2) + pow(state_prime[1], 2) + pow(bottom_raw_z + ceiling_height - raw_z, 2) > pow(free_rad, 2)):
+		return 4
 
 	if goal_mode == "move_up":
 		if state_prime[2] > move_up_dist:
@@ -151,11 +153,12 @@ def check_is_done(state_prime, time_taken):
 			return 1
 	return 0
 
-def return_reward(state, state_prime):
+def return_reward(state_prev, state_prime):
 	""" function to determine reward """
 	if goal_mode == "move_up":
 		# difference in upward velocity (positive is better)
-		return state_prime[9] - state[9] - (move_up_dist - state_prime[2])
+		#print(state_prime, state_prev)
+		return state_prime[9] - state_prev[9] - (move_up_dist - state_prime[2])
 
 def callback(kinematics): # rmb to normalise
 
@@ -181,10 +184,9 @@ def callback(kinematics): # rmb to normalise
 	# get the action (scale [-1,1] to [min_PPM, max_PPM])
 	action = agent.select_actions(state_prime, mode)
 	ppm_val = np.clip(ppm_val + np.append(action, [0,0,0,0]), np.append(min_PPM, [0,0,0,0]), np.append(max_PPM, [0,0,0,0])).astype(int)
-	print(ppm_val)
 	# see if the episode goal has been reached or the flight failed (only check if episode is not already done)
-	if not episode_is_done:
-		episode_is_done = check_is_done(state_prime, time.time() - start_time)
+	if (not episode_is_done and not first_msg):
+		episode_is_done = check_is_done(state_prime, kinematics.pose.position.z, time.time() - start_time)
 
 	# create chnl msg
 	chnl_msg = ppmchnls()
@@ -193,7 +195,6 @@ def callback(kinematics): # rmb to normalise
 		if save_terminal_data:
 			agent.store_memory(state, prev_action, return_reward(state, state_prime), state_prime, 1)
 			save_terminal_data = False
-
 		# FAILSAFE MODE
 		chnl_msg.chn1,chnl_msg.chn2,chnl_msg.chn3,chnl_msg.chn4,chnl_msg.chn5,chnl_msg.chn6,chnl_msg.chn7,chnl_msg.chn8 = failsafe_PPM
 
@@ -214,7 +215,7 @@ def callback(kinematics): # rmb to normalise
 
 	# set current state_prime to state and action to prev_action and return as we cannot 
 	if first_msg:
-		state = np.copy(state_prime)
+		state = state_prime[:]
 		prev_action = np.copy(action)
 		first_msg = False
 		return
@@ -229,7 +230,7 @@ def callback(kinematics): # rmb to normalise
 def ros_fly():
 
 	# set empty replay memory object
-	temp_replay_buffer = np.copy(agent.memory)
+	temp_replay_buffer = deepcopy(agent.memory)
 
 	# initialise node and subscribers
 	rospy.init_node('fly_delta', anonymous=True, disable_signals = True)
@@ -249,28 +250,28 @@ def ros_fly():
 					if agent.model == "DDPG" and mode != "test":
 						nn_training_loss_log.append(agent.apply_gradients_DDPG())
 					rate.sleep()
-				rospy.loginfo("The training for episode {} has terminated. Termination Condition: {}".format(episode+1), episode_is_done)
+				rospy.loginfo("The training for episode {} has terminated. Termination Condition: {}".format((episode+1), episode_is_done))
 				# check if we want to use latest replay buffer
 				check_latest_buffer = input("Do you wish to keep the latest replay?(y/n): ")
 
 				if check_latest_buffer.lower() == "n":
 					# reset agent memeory to temp buffer
 					rospy.loginfo("Discarding recent replay memory gained, please hold...")
-					agent.memory = np.copy(temp_replay_buffer)
+					agent.memory = deepcopy(temp_replay_buffer)
 				else:
 					# update temp buffer
 					rospy.loginfo("Saving replay buffer to csv, please hold...")
-					temp_replay_buffer = np.copy(agent.memory)
+					temp_replay_buffer = deepcopy(agent.memory)
 					# then save accordingly
 					agent.memory.save_replay_buffer(file_list)
 
-				check_save_model = input("Do you wish to save the model?(y/n): ")
+				# check_save_model = input("Do you wish to save the model?(y/n): ")
 
 				if episode < episodes - 1:
-					check = input("Reset bird and press any key to continue".format(episode+1))
-				first_msg = True
-				episode_is_done = 0
-				save_terminal_data = True
+					check = input("Reset bird and press any key to continue")
+					first_msg = True
+					episode_is_done = 0
+					save_terminal_data = True
 			# CONTROL C
 			except KeyboardInterrupt:
 				# set episode to be done
@@ -282,29 +283,29 @@ def ros_fly():
 				if check_latest_buffer.lower() == "n":
 					# reset agent memeory to temp buffer
 					rospy.loginfo("Discarding recent replay memory gained, please hold...")
-					agent.memory = np.copy(temp_replay_buffer)
+					agent.memory = deepcopy(temp_replay_buffer)
 				else:
 					# update temp buffer
 					rospy.loginfo("Saving replay buffer to csv, please hold...")
-					temp_replay_buffer = np.copy(agent.memory)
+					temp_replay_buffer = deepcopy(agent.memory)
 					# then save accordingly
 					agent.memory.save_replay_buffer(file_list)
 
 				if episode < episodes - 1:
-					check = input("Reset bird and press any key to continue".format(episode+1))
-				first_msg = True
-				episode_is_done = 0
-				save_terminal_data = True
+					check = input("Reset bird and press any key to continue")
+					first_msg = True
+					episode_is_done = 0
+					save_terminal_data = True
 			# save NN always after each episode ends
 			agent.save_all_models()
 		break
-
+	
 	# FAILSAFE MODE AFTER TRAINING ENDS
 	chnl_msg = ppmchnls()
 	chnl_msg.chn1,chnl_msg.chn2,chnl_msg.chn3,chnl_msg.chn4,chnl_msg.chn5,chnl_msg.chn6,chnl_msg.chn7,chnl_msg.chn8 = failsafe_PPM
 	pub_arduino.publish(chnl_msg)
 	rospy.loginfo("Training has ended")
-
+	
 #if __name__ == "__main__":
 ros_fly()
 

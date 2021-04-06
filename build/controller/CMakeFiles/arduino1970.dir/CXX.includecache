@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/ppmchnls.h
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/include/custommsg/ppmchnls.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/jasper/flap_ws/src/controller/src/arduino1970.cpp
+/home/arijitnoobstar/Flapping-Wing-MAV/src/controller/src/arduino1970.cpp
 ros/ros.h
 -
 custommsg/ppmchnls.h

@@ -1,1 +1,0 @@
-/home/jasper/flap_ws/devel/.private/rosserial_python/lib/python2.7/dist-packages/rosserial_python/__init__.py

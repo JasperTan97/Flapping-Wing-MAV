@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/maclearn/share/maclearn/cmake/maclearnConfig.cmake
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/maclearn/share/maclearn/cmake/maclearnConfig.cmake

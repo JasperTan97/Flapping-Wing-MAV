@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jasper/flap_ws/src/controller/src/bird_data_compiler_2.cpp" "/home/jasper/flap_ws/build/controller/CMakeFiles/bird_data_compiler.dir/src/bird_data_compiler_2.cpp.o"
+  "/home/arijitnoobstar/Flapping-Wing-MAV/src/controller/src/bird_data_compiler_2.cpp" "/home/arijitnoobstar/Flapping-Wing-MAV/build/controller/CMakeFiles/bird_data_compiler.dir/src/bird_data_compiler_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/jasper/flap_ws/src/controller/include"
-  "/home/jasper/flap_ws/devel/.private/custommsg/include"
+  "/home/arijitnoobstar/Flapping-Wing-MAV/src/controller/include"
+  "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

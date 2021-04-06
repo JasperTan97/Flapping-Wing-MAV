@@ -1,24 +1,97 @@
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package.lisp)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/manifest.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/manifest.l)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/msg/kinematicstamped.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/kinematicstamped.l)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/msg/ppmchnls.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/ppmchnls.l)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/_index.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/_index.js)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/_index.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/_index.js)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/ppmchnls.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/ppmchnls.js)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/kinematicstamped.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/kinematicstamped.js)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig-version.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig-version.cmake)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsg-msg-extras.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-extras.cmake)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig.cmake)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsg-msg-paths.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-paths.cmake)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/ppmchnls.h, /home/jasper/flap_ws/devel/include/custommsg/ppmchnls.h)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/kinematicstamped.h, /home/jasper/flap_ws/devel/include/custommsg/kinematicstamped.h)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/lib/pkgconfig/custommsg.pc, /home/jasper/flap_ws/devel/lib/pkgconfig/custommsg.pc)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/__init__.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/__init__.py)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/__init__.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/__init__.py)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py)
-Linked: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py)
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/pkgconfig/custommsg.pc
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/python2.7/dist-packages/custommsg/__init__.py
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/python2.7/dist-packages/custommsg/msg/__init__.py
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/custommsg/cmake/custommsgConfig-version.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/custommsg/cmake/custommsgConfig.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/custommsg/cmake/custommsg-msg-paths.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/custommsg/cmake/custommsg-msg-extras.cmake
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/_package.lisp
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/roseus/ros/custommsg/manifest.l
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/roseus/ros/custommsg/msg/ppmchnls.l
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/roseus/ros/custommsg/msg/kinematicstamped.l
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/gennodejs/ros/custommsg/_index.js
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/gennodejs/ros/custommsg/msg/ppmchnls.js
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/gennodejs/ros/custommsg/msg/_index.js
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/share/gennodejs/ros/custommsg/msg/kinematicstamped.js
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/include/custommsg/kinematicstamped.h
+Symlinking /home/arijitnoobstar/Flapping-Wing-MAV/devel/include/custommsg/ppmchnls.h
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/cmake.lock, /home/jasper/flap_ws/devel/./cmake.lock)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/common-lisp/ros/custommsg/msg/_package.lisp, /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package.lisp)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/manifest.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/manifest.l)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/msg/kinematicstamped.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/kinematicstamped.l)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/msg/ppmchnls.l, /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/ppmchnls.l)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/_index.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/_index.js)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/_index.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/_index.js)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/ppmchnls.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/ppmchnls.js)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/gennodejs/ros/custommsg/msg/kinematicstamped.js, /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/kinematicstamped.js)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig-version.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig-version.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsg-msg-extras.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-extras.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsg-msg-paths.cmake, /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-paths.cmake)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/ppmchnls.h, /home/jasper/flap_ws/devel/include/custommsg/ppmchnls.h)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/include/custommsg/kinematicstamped.h, /home/jasper/flap_ws/devel/include/custommsg/kinematicstamped.h)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/lib/pkgconfig/custommsg.pc, /home/jasper/flap_ws/devel/lib/pkgconfig/custommsg.pc)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/__init__.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/__init__.py)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/__init__.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/__init__.py)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py)
+Cleaning: (/home/jasper/flap_ws/devel/.private/custommsg/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py, /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py)
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/ppmchnls.lisp
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_kinematicstamped.lisp
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package_ppmchnls.lisp
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/custommsg-msg.asd
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/kinematicstamped.lisp
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/common-lisp/ros/custommsg/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/manifest.l
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/kinematicstamped.l
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/roseus/ros/custommsg/msg/ppmchnls.l
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/_index.js
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/ppmchnls.js
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/gennodejs/ros/custommsg/msg/kinematicstamped.js
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsgConfig.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/share/custommsg/cmake/custommsg-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/include/custommsg/ppmchnls.h
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/include/custommsg/kinematicstamped.h
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/pkgconfig/custommsg.pc
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/__init__.py
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_ppmchnls.py
+Already unlinked: {}
+Unlinking: /home/jasper/flap_ws/devel/lib/python2.7/dist-packages/custommsg/msg/_kinematicstamped.py
+Already unlinked: {}

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jasper/flap_ws/devel/.private/vrpn_client_ros:$CMAKE_PREFIX_PATH"
-export PWD='/home/jasper/flap_ws/build/vrpn_client_ros'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jasper/flap_ws/devel/.private/vrpn_client_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jasper/flap_ws/src/vrpn_client_ros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/vrpn_client_ros:$CMAKE_PREFIX_PATH"
+export PWD='/home/arijitnoobstar/Flapping-Wing-MAV/build/vrpn_client_ros'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/vrpn_client_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/arijitnoobstar/Flapping-Wing-MAV/src/vrpn_client_ros:$ROS_PACKAGE_PATH"

@@ -1,7 +1,0 @@
-Symlinking /home/jasper/flap_ws/devel/share/rosserial_server/cmake/rosserial_serverConfig.cmake
-Symlinking /home/jasper/flap_ws/devel/share/rosserial_server/cmake/rosserial_serverConfig-version.cmake
-Symlinking /home/jasper/flap_ws/devel/lib/librosserial_server_lookup.so
-Symlinking /home/jasper/flap_ws/devel/lib/pkgconfig/rosserial_server.pc
-Symlinking /home/jasper/flap_ws/devel/lib/rosserial_server/socket_node
-Symlinking /home/jasper/flap_ws/devel/lib/rosserial_server/udp_socket_node
-Symlinking /home/jasper/flap_ws/devel/lib/rosserial_server/serial_node

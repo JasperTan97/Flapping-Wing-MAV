@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/custommsg/share/roseus/ros/custommsg/msg/kinematicstamped.l
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/roseus/ros/custommsg/msg/kinematicstamped.l

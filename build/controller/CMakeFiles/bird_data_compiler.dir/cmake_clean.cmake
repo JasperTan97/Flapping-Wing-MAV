@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bird_data_compiler.dir/src/bird_data_compiler_2.cpp.o"
-  "/home/jasper/flap_ws/devel/.private/controller/lib/controller/bird_data_compiler.pdb"
-  "/home/jasper/flap_ws/devel/.private/controller/lib/controller/bird_data_compiler"
+  "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller/lib/controller/bird_data_compiler.pdb"
+  "/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller/lib/controller/bird_data_compiler"
 )
 
 # Per-language clean rules from dependency scanning.

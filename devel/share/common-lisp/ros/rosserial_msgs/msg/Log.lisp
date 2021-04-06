@@ -1,1 +1,0 @@
-/home/jasper/flap_ws/devel/.private/rosserial_msgs/share/common-lisp/ros/rosserial_msgs/msg/Log.lisp

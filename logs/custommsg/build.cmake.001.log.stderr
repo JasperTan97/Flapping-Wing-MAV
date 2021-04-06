@@ -1,9 +1,0 @@
-[31m[1mCMake Error[0m at /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:271 (message):
-  Could not find
-  'share/message_generation/cmake/message_generation-msg-paths.cmake'
-  (searched in
-  '/home/jasper/flap_ws/devel/.private/custommsg;/home/jasper/flap_ws/devel;/home/jasper/birb_ws/devel;/opt/ros/melodic').
-[36mCall Stack (most recent call first):[0m
-  CMakeLists.txt:72 (generate_messages)
-
-

@@ -7,10 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH='/home/jasper/birb_ws/devel/lib:/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/home/jasper/birb_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
-export PWD='/home/jasper/flap_ws/build/catkin_tools_prebuild'
-export PYTHONPATH='/home/jasper/birb_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/jasper/flap_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jasper/flap_ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/arijitnoobstar/UAVProjectileCatcher/devel/lib:/opt/ros/melodic/lib'
+export PKG_CONFIG_PATH='/home/arijitnoobstar/UAVProjectileCatcher/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/arijitnoobstar/Flapping-Wing-MAV/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH='/home/arijitnoobstar/Flapping-Wing-MAV/build/catkin_tools_prebuild:/home/arijitnoobstar/Flapping-Wing-MAV/src/custommsg:/home/arijitnoobstar/Flapping-Wing-MAV/src/controller:/home/arijitnoobstar/Flapping-Wing-MAV/src/maclearn:/home/arijitnoobstar/Flapping-Wing-MAV/src/vrpn_client_ros:/home/arijitnoobstar/UAVProjectileCatcher/src/drone_ball_catcher:/home/arijitnoobstar/UAVProjectileCatcher/src/mavlink:/home/arijitnoobstar/UAVProjectileCatcher/src/mavros/libmavconn:/home/arijitnoobstar/UAVProjectileCatcher/src/mavros/mavros_msgs:/home/arijitnoobstar/UAVProjectileCatcher/src/mavros/mavros:/home/arijitnoobstar/UAVProjectileCatcher/src/mavros/mavros_extras:/home/arijitnoobstar/UAVProjectileCatcher/src/realsense2_description:/home/arijitnoobstar/UAVProjectileCatcher/src/realsense_gazebo_plugin:/home/arijitnoobstar/UAVProjectileCatcher/src/mavros/test_mavros:/opt/ros/melodic/share'

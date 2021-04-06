@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig.cmake
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/custommsg/share/custommsg/cmake/custommsgConfig.cmake

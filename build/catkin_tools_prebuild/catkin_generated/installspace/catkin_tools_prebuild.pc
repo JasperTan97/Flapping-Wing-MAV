@@ -1,4 +1,4 @@
-prefix=/home/jasper/flap_ws/install
+prefix=/home/arijitnoobstar/Flapping-Wing-MAV/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

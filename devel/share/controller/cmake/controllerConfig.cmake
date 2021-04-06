@@ -1,1 +1,1 @@
-/home/jasper/flap_ws/devel/.private/controller/share/controller/cmake/controllerConfig.cmake
+/home/arijitnoobstar/Flapping-Wing-MAV/devel/.private/controller/share/controller/cmake/controllerConfig.cmake

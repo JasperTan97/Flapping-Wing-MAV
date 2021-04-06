@@ -1,1 +1,0 @@
-/home/jasper/flap_ws/devel/.private/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc

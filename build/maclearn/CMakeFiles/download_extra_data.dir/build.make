@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jasper/flap_ws/src/maclearn
+CMAKE_SOURCE_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/src/maclearn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jasper/flap_ws/build/maclearn
+CMAKE_BINARY_DIR = /home/arijitnoobstar/Flapping-Wing-MAV/build/maclearn
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/jasper/flap_ws/build/maclearn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jasper/flap_ws/src/maclearn /home/jasper/flap_ws/src/maclearn /home/jasper/flap_ws/build/maclearn /home/jasper/flap_ws/build/maclearn /home/jasper/flap_ws/build/maclearn/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arijitnoobstar/Flapping-Wing-MAV/build/maclearn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arijitnoobstar/Flapping-Wing-MAV/src/maclearn /home/arijitnoobstar/Flapping-Wing-MAV/src/maclearn /home/arijitnoobstar/Flapping-Wing-MAV/build/maclearn /home/arijitnoobstar/Flapping-Wing-MAV/build/maclearn /home/arijitnoobstar/Flapping-Wing-MAV/build/maclearn/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

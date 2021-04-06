@@ -1,4 +1,0 @@
-[31m[1mCMake Error[0m at /home/jasper/flap_ws/src/custommsg/CMakeLists.txt:50 (add_message_files):
-  Unknown CMake command "add_message_files".
-
-

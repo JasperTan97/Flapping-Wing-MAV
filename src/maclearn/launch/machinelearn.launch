@@ -2,9 +2,9 @@
 
 	<node
 		pkg="maclearn"
-		type="fly.py"
-		name="bird_data_compiler_node_py"
-		output="screen"
+		type="fly_delta.py"
+		name="fly_delta"
+		output = "screen"
 
 	/>
 
@@ -12,6 +12,8 @@
 		pkg="maclearn" 
 		type="threeinone.py" 
 		name="pose_twist_accel_compiler_node_py"
+		output="screen" 
+		launch-prefix="terminator -x python"
 
 	/>
 
